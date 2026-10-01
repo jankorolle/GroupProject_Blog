@@ -1,16 +1,17 @@
 .landing-section-carousel{
-  width: 1201px;
+  width: 1200px;
   margin: 0 auto;
-}
-
-.landing-section-carousel{
 
   display: flex;
   justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 90px;
 }
 
 .landing-section-text {
-  width: 902px;
+  position: relative;
+  width: 900px;
+  height: 390px;
 }
 
 .landing-section-text>div>h2{
@@ -42,8 +43,9 @@
 
 .landing-section-metadata{
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   gap: 32px;
+  position: absolute; bottom: 0;
 }
 
 .landing-section-metadata-postdetails{
@@ -55,8 +57,7 @@
 }
 
 .authorsection {
-  width: 272px;
-  height: 389px;
+  width: 270px;
   background-color: rgba(78, 164, 135, 0.2);
   border-radius: 30px;
 
@@ -66,4 +67,30 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
+}
+
+.author-passage {
+  padding: 16px;
+}
+
+.authorsection-name{
+  font-family: Arima;
+  font-weight: 700;
+  font-size: 1,125rem;
+  text-align: center;
+}
+
+.authorsection-job-titel{
+  font-family: Arima;
+  font-weight: 400;
+  font-size: 1,125rem;
+  text-align: center;
+}
+
+.author-text{
+  font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: start;
+  line-height: 120%;
 }
