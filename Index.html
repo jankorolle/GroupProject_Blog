@@ -7,6 +7,7 @@
     <title>Travel Blog</title>
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Hompage_style.css">
 </head>
 
 <body>
@@ -20,48 +21,97 @@
         </div>
 
     </header>
-
-    <section class="landing-section">
-        <div class="layer">
-            
-     </div>
-
-    </section>
-
-
-    <section class="main-section">
-        <p id="highlights">
-                         <h1>
-                    highlights
-                </h1>   
-
-        </p>
-
-    </section>
-
-
-
-
-    <section class="pro-tipps">
-        <section class="pro-tipps-list">
-            <p>
-                FAQ
-            </p>
+    <div class="content">
+        <section class="landing-section">
+            <div class="layer">
+                <h1>Cappadocia</h1>
+                <p>From sunrise balloons to hidden cave dwellings, every moment feels unreal in the best way.</p>
+            </div>
 
         </section>
 
-    </section>
 
-    <section class="share">
-        <p class="share-text">
-            Contact Form
-        </p>
-        <button>
-            send  
-        </button>
+        <section class="main-section" id="highlights">
 
-    </section>
+            <h2><img src="./assets/icons/rocket_launch.svg" alt="Rocket Launch">Highlights</img>
 
+            </h2>
+            <p>
+                From the vibrant cultures of Asia to the sun-drenched islands of the Caribbean and the serene landscapes
+                of
+                Scandinavia, each destination offers a distinct way to explore the world.
+            </p>
+            <div class="highlightsContent">
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="FAQ_section">
+            <h2><img src="./assets/icons/live_help.svg" alt="Questionmark">FAQ</h2>
+            <div>
+                <button class="accordion">What’s the story behind my travel blog?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">How do I plan, document, and share my travels?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">How can brands, companies, or fellow creators collaborate with me or get in
+                    touch?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+
+                <button class="accordion">How can readers support this blog and the work behind it?</button>
+                <div class="panel">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="share">
+            <h2><img src="./assets/icons/person_pin.svg" alt="Person Pin">Contact Form</h2>
+            <p class="share-text">
+                Have a question or an idea to collaborate?
+                Get in touch—I’d love to hear from you and explore how we can work together.
+            </p>
+            <form action="/action_page.php">
+                <label for="fname">What's your name? </label>
+                <input type="text" id="fname"><br><br>
+                <label for="email">What's your email?</label>
+                <input type="text" id="email"><br><br>
+                <label for="question">How can I help?</label>
+                <input type="text" id="question"><br><br>
+                <input type="checkbox" id="privacy policy">
+                <label for="privacy policy"> I've read the <a href>privacy policy </a> and agree to the processing of my data as outlined.</label><br>
+                <input type="submit" value="Send">
+            </form>
+
+        </section>
+    </div>
     <footer class="footer">
         <section class="footer-section-left">
             <div class="footer-section-left-links">
@@ -84,6 +134,23 @@
 
 
     </footer>
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                    panel.style.maxHeight = null;
+                } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
+
 </body>
 
 </html>
