@@ -63,15 +63,19 @@
 
 }
 
-.author-img{
-  padding-top: 16px;
-  
-  width: 120px;
-  border-radius: 50%;
-  display: block;
-  margin: 0 auto;
+.img-box{
+  display: flex;
+  justify-content: center;
 }
 
+.author-img{
+  margin-top: 16px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: -40px;
+}
 .author-passage {
   padding: 16px;
 }
