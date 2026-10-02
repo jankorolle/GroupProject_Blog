@@ -1,3 +1,9 @@
+.main{
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
 .landing-section-carousel{
   width: 1200px;
   margin: 0 auto;
@@ -5,7 +11,6 @@
   display: flex;
   justify-content: space-between;
   padding-top: 80px;
-  padding-bottom: 90px;
 }
 
 .landing-section-text {
@@ -101,3 +106,54 @@
   text-align: start;
   line-height: 120%;
 }
+
+.slider-section{
+  padding-top: 90px;
+  width: 1100px;
+}
+
+
+
+.slider-section > div > p{
+  font-family: Arima;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center
+}
+
+.img-slider{
+  padding-top: 64px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+}
+
+.slider_element {
+  z-index: 1;
+  width: 300px;
+  height: 400px;
+
+  background-color: blueviolet;
+
+  box-shadow:
+    0px 4px 3px rgba(3, 7, 18, 0.03),
+    0px 14px 11px rgba(3, 7, 18, 0.05),
+    0px 32px 24px rgba(3, 7, 18, 0.08);
+
+    transform: perspective(250px) rotateY(20deg) translateX(-20px);
+    transform-origin: 50% 50%;
+
+    transition: all 250ms ease-in-out;
+}
+
+      .slider_element:hover {
+        z-index: 2;
+
+        background-color: aqua;
+        transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.5) scaleY(1.2);
+      }
+
+      .slider_b_element:hover~.slider_b_element{
+        background-color: brown;
+        transform: perspective(250px) rotateY(-20deg) translateX(20px);
+      }
