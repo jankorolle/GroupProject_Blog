@@ -109,10 +109,9 @@
 
 .slider-section{
   padding-top: 90px;
-  width: 1100px;
+  padding-bottom: 90px;
+  max-width: 1100px;
 }
-
-
 
 .slider-section > div > p{
   font-family: Arima;
@@ -123,6 +122,7 @@
 
 .img-slider{
   padding-top: 64px;
+  width: 1300px;
   height: 440px;
   display: flex;
   justify-content: center;
@@ -131,29 +131,63 @@
 .slider_element {
   z-index: 1;
   width: 300px;
-  height: 400px;
+  height: 440px;
+  border-radius: 16px;
+  margin-left: -100px;
 
-  background-color: blueviolet;
+  object-fit: cover;
 
   box-shadow:
     0px 4px 3px rgba(3, 7, 18, 0.03),
     0px 14px 11px rgba(3, 7, 18, 0.05),
     0px 32px 24px rgba(3, 7, 18, 0.08);
 
-    transform: perspective(250px) rotateY(20deg) translateX(-20px);
-    transform-origin: 50% 50%;
+  transform: perspective(250px) rotateY(10deg) translateX(-10px);
+  transform-origin: 50% 50%;
 
-    transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
-      .slider_element:hover {
-        z-index: 2;
+.slider_element:hover {
+  z-index: 2;
+  transform: perspective(200px) rotateY(0deg) translateX(0px);
+  margin-right: 96px;
+  margin-left: 0px;
+}
 
-        background-color: aqua;
-        transform: perspective(250px) rotateY(0deg) translateX(0px) scaleX(1.5) scaleY(1.2);
-      }
+.slider_element:hover~.slider_element{
+  transform: perspective(200px) rotateY(-10deg) translateX(10px);
+}
 
-      .slider_b_element:hover~.slider_b_element{
-        background-color: brown;
-        transform: perspective(250px) rotateY(-20deg) translateX(20px);
-      }
+.description{
+  padding-top: 90px;
+}
+
+.description-box{
+  font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: start;
+  line-height: 120%;
+}
+
+.info{
+  padding: 90px 100px;
+}
+
+.info-p-tag{
+   font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: start;
+  line-height: 120%;
+  padding-bottom: 16px;
+}
+
+.info-li-tag{
+  font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: start;
+  line-height: 120%;
+}
