@@ -1,0 +1,77 @@
+.landing-section-carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.landing-section-carousel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.landing-section-text > h2{
+    font-family: Palanquin;
+    font-weight: 600;
+    font-style: Semibold;
+    font-size: 2.5rem;
+
+    color: rgba(78, 164, 135, 1);
+}
+
+.landing-section-text > h1{
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 3.75rem;
+
+    color: rgba(241, 201, 83, 1);
+}
+
+.landing-section-text > p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 1.75rem;
+
+    color: rgba(84, 55, 13, 1);
+}
+
+.landing-section-metadata{
+    display: flex;
+    flex-direction: row;
+    align-items: center;$
+
+    gap: 32px;
+}
+
+.landing-section-metadata-calender{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-section-metadata-eyeglasses{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-section-metadata-visibility{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.landing-section-metadata-share{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
