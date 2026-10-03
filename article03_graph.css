@@ -55,7 +55,26 @@
 .landing-section-metadata-calender{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
+
+    gap: 6px;
+    width: 572px;
+    height: 19px;
+
+}
+
+.landing-section-metadata-calender > img{
+    width: 16px;
+}
+
+.landing-section-metadata-calender > p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 1rem;
+
+    color: rgba(84, 55, 13, 1);
 }
 
 .landing-section-metadata-eyeglasses{
