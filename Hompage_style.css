@@ -70,8 +70,9 @@
 body {
   align-items: center;
 }
+
 .header {
-    z-index: 10;
+  z-index: 10;
 }
 
 h2 {
@@ -98,8 +99,8 @@ h3 {
 }
 
 .content {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 
@@ -241,18 +242,15 @@ h3 {
   line-height: 100%;
   text-align: center;
   margin-bottom: 80px;
-
-
 }
 
 .highlightsContent {
-   position: relative;
+  position: relative;
   font-family: Palanquin;
   height: 533px;
   max-width: 1200px;
   width: 100%;
   border-radius: 0 100px 0 0;
-
 }
 
 .highlights-Content-img {
@@ -260,7 +258,6 @@ h3 {
   width: 1200px;
   height: 533px;
   object-fit: cover;
-
 }
 
 .highlightsContentBox {
@@ -273,8 +270,6 @@ h3 {
   border-right: 2px solid white;
   backdrop-filter: blur(5px);
   background: rgba(0, 0, 0, 0.1);
-
-
 }
 
 .highlights-Content-Text {
@@ -305,19 +300,51 @@ h3 {
 }
 
 .highlights-Button {
-    width: 12px;
-    height: 12px;
-    min-width: 12px;
-    border: none;
-    border-radius: 50%;
-    background-color: white;
-    cursor: pointer;
+  width: 12px;
+  height: 12px;
+  min-width: 12px;
+  border: solid;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
 }
 
-.highlights-Button:focus {
+.highlights-Button:target {
   background-color: #F1C953;
   padding: 10px 15px;
   border-radius: 45%;
+}
+
+.highlightsContent>.highlightsBox {
+  display: none;
+}
+
+.highlightsContent>#target01 {
+  display: block;
+}
+
+.highlightsContent:has(#target02:target)>#target01 {
+  display: none;
+}
+
+.highlightsContent:has(#target02:target)>#target02 {
+  display: block;
+}
+
+.highlightsContent:has(#target03:target)>#target01 {
+  display: none;
+}
+
+.highlightsContent:has(#target03:target)>#target03 {
+  display: block;
+}
+
+.highlightsContent:has(#target04:target)>#target01 {
+  display: none;
+}
+
+.highlightsContent:has(#target04:target)>#target04 {
+  display: block;
 }
 
 
@@ -377,9 +404,120 @@ h3 {
   align-items: center;
   width: 100%;
   max-width: 1440px;
+  margin-bottom: 80px;
 
 }
 
 .share-text {
   font-family: Palanquin;
+}
+
+label {
+  font-family: Palanquin;
+  color: #54370D;
+}
+
+input {
+  font-family: Palanquin;
+  width: 100%;
+  border: none;
+  border-bottom: solid;
+  border-color: #54370D;
+  color: #4EA487;
+}
+
+input:focus {
+  outline: none;
+}
+
+.OverallBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+}
+
+.ShareBox {
+  width: 512px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.privacyPolicy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.privacyPolicy input[type="checkbox"] {
+  width: auto;
+
+}
+
+[type="checkbox"] {
+  -webkit-appearance: none;
+}
+
+[type="checkbox"]+label::before {
+  width: 24px;
+  height: 24px;
+  border-radius: 5px;
+  border: 3px solid #54370D;
+  background-color: #fff;
+  display: block;
+  content: "";
+  float: left;
+  margin-right: 5px;
+  position: relative;
+}
+
+[type="checkbox"]:checked+label::before {
+  background-color: #4EA487;
+  content: "\2714";
+  color: #F1C953;
+  border: 3px solid #4EA487;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+[type="checkbox"]+label:hover::before {
+  background-color: #F1C953;
+}
+
+.privacyPolicy label {
+  width: auto;
+}
+
+.sendButtonBox {
+  display: flex;
+  justify-content: center;
+}
+
+.sendButton {
+  margin-top: 60px;
+  font-family: Arima;
+  color: #737373;
+  background-color: white;
+  border-color: #737373;
+  border-style: solid;
+  width: 139px;
+  height: 48px;
+  border-radius: 24px;
+  cursor: not-allowed;
+}
+
+.sendButton:hover {
+  text-shadow: 2px 4px 8px #000000;
+  background-color: #4EA487;
+}
+
+.Contact-form:has(.privacycheckbox:checked) .sendButton {
+  cursor: pointer;
+  color: #F1C953;
+  background-color: #4EA487;
+  Border: none;
 }
