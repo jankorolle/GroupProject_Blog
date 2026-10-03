@@ -9,3 +9,161 @@
     padding-top: 80px;
 }
 
+.main-rain{
+    width: 1200px;
+    height: 756px;
+    gap: 88px;
+
+    justify-content: center;
+    text-align: center;
+
+    padding-top: 80px;
+}
+
+.main-rain-graphic{
+    height: 494px;
+    gap: 24px;
+}
+
+.main-rain-graphic > p{
+    font-family: Arima;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    gap: 30px;
+}   
+
+.main-rain-graphic > img{
+    width: 640px;
+    height: 436px;
+    border-radius: 53px;
+
+    padding-top: 20px;
+}
+
+.main-rain-graphic-descr > p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    text-align: start;
+
+    padding-top: 80px;
+
+}
+
+.main-beach-accomodation{
+    width: 1200px;
+    height: 1047px;
+    gap: 88px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-beach-accomodation-split{
+    display: flex;
+    flex-direction: row;
+    
+    width: 1118px;
+    height: 727px;
+    gap: 80px;
+}
+
+.main-beach-accomodation-split-left{
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.main-beach-accomodation-split-left > h2{
+    font-family: Arima;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    text-align: center;
+
+    color: rgba(84, 55, 13, 1);
+;
+}
+
+.main-beach-accomodation-split-left > p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    color: rgba(61, 61, 61, 1);
+;
+}
+
+.main-beach-accomodation-split-left > img{
+    width: 519px;
+    height: 471px;
+    border-radius: 53px;
+
+    align-items: baseline;
+}
+
+
+.main-beach-accomodation-split-right{
+    display: flex;
+    flex-direction: column;
+
+    gap: 24px;
+}
+
+.main-beach-accomodation-split-right > h2{
+    font-family: Arima;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    text-align: center;
+
+    color: rgba(84, 55, 13, 1);
+}
+
+.main-beach-accomodation-split-right > p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    color: rgba(61, 61, 61, 1);
+}
+
+.main-beach-accomodation-split-right > img{
+    width: 519px;
+    height: 471px;
+    border-radius: 53px;
+}
+
+.main-beach-accomodation-descr > p{
+     font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    color: rgba(61, 61, 61, 1);
+}
