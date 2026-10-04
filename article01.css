@@ -176,7 +176,7 @@
 }
 
 .info-p-tag{
-   font-family: Palanquin;
+  font-family: Palanquin;
   font-weight: 400;
   font-size: 1.5rem;
   text-align: start;
@@ -190,4 +190,36 @@
   font-size: 1.5rem;
   text-align: start;
   line-height: 120%;
+}
+
+.pro-tipps{
+  width: 1130px;
+  height: 260px;
+}
+.pro-tipps-box {
+  z-index: 1;
+  background-color: rgba(78, 164, 135, 1);
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.pro-tipps-box>p{
+  font-family: Palanquin;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: rgba(241, 201, 83, 1);
+}
+
+.pro-tipps-discription{
+  font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 120%;
+  background-color: rgba(78, 164, 135, 0.2);
+  border-radius: 30px;
 }
