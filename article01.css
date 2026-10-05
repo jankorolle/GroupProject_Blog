@@ -223,3 +223,11 @@
   background-color: rgba(78, 164, 135, 0.2);
   border-radius: 30px;
 }
+
+.share-button > p {
+  font-family: arima;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 120%;
+  text-align: center;
+}
