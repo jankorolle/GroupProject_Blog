@@ -191,11 +191,17 @@
 }
 
 .share-box{
-    width: 493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 463px;
     height: 154px;
 
-   align-items: center;
-   text-align: center;
+    text-align: center;
+    align-content: space-between;
+    
 }
 
 .share-box > p{
@@ -209,66 +215,58 @@
     color: rgba(84, 55, 13, 1);
 }
 
-
-.share-box > img{
-    width: 107px;
-    height: 65px;
-    border: 3px;
-    rotate: 10deg;
-}
-
-
-
-
-
-button{
+.button-box{
     width: 158px;
     height: 48px;
     border-radius: 40px;
-    padding: 0px 40px 0px 40px;
-    margin: 20px;
 
     gap: 10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 48px;
+    border-radius: 40px;
+
+    gap: 8px;
+    /* margin-top: 40px; */
 
     background-color: rgba(78, 164, 135, 1);
-    display: inline-block;
-   align-items: center;
+
+    animation-name: buttonmove; 
+    animation-duration: 0.1s;
+    position: relative;
 }
 
-button > img{
+.button:active
+
+
+@keyframes buttonmove {
+    from{
+        left: 0px;
+    }
+
+    to{
+        left: -20px;
+    }
+}
+
+.button > img{
     width: 32px;
-    border-radius: 6px;
+    gap: 10px;
 }
 
-button > p{
-    width: 70px;
-    height: 29px;
-
+.button > p{
     font-family: Arima;
     font-weight: 700;
     font-style: bold;
     font-size: 1.5rem;
     line-height: 120%;
     letter-spacing: 5%;
-    
-    color: rgba(241, 201, 83, 1);
-}
 
-button > img{
-    width: 32px;
-    border-radius: 6px;
-}
-
-button > p{
-    width: 70px;
-    height: 29px;
-
-    font-family: Arima;
-    font-weight: 700;
-    font-style: bold;
-    font-size: 1.5rem;
-    line-height: 120%;
-    letter-spacing: 5%;
-    
     color: rgba(241, 201, 83, 1);
 }
