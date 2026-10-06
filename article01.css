@@ -195,17 +195,21 @@
 .pro-tipps{
   width: 1130px;
   height: 260px;
+  padding: 0px 35.5px;
 }
 .pro-tipps-box {
   z-index: 1;
   background-color: rgba(78, 164, 135, 1);
   display: flex;
-  justify-content: space-around;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   width: 200px;
+  height: 66px;
   border-radius: 10px;
+  position: relative;
+  top: 24px;
+  left: -48px;
 }
 
 .pro-tipps-box>p{
@@ -216,12 +220,29 @@
 }
 
 .pro-tipps-discription{
+  z-index: 2;
   font-family: Palanquin;
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 120%;
   background-color: rgba(78, 164, 135, 0.2);
   border-radius: 30px;
+  width: 1083px;
+  height: 195px;
+  padding: 65px 0px 0px 47;
+}
+
+.pro-tipps-discription > div{
+  display: flex;
+  justify-content: space-around;
+  padding: 26px 16px;
+}
+.pro-tipps-box{
+  transform: rotate(-13.67deg)
+}
+
+.pro-tipps-box > img {
+  transform: rotate(13.67deg);
 }
 
 .share-button > p {
