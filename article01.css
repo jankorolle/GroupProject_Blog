@@ -195,7 +195,8 @@
 .pro-tipps{
   width: 1130px;
   height: 260px;
-  padding: 0px 0px 0px 82.5px;
+  padding: 0px 0px 90px 82.5px;
+  margin-bottom: 90px;
 }
 
 .pro-tipps-box {
