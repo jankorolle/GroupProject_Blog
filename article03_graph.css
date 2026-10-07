@@ -81,6 +81,8 @@
 .main-beach-accomodation-split-left{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 
     gap: 24px;
 }
@@ -115,16 +117,18 @@
     width: 519px;
     height: 471px;
     border-radius: 53px;
-
-    align-items: baseline;
 }
 
 
 .main-beach-accomodation-split-right{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 
     gap: 24px;
+
+    align-items: baseline;
 }
 
 .main-beach-accomodation-split-right > h2{
@@ -155,6 +159,12 @@
     width: 519px;
     height: 471px;
     border-radius: 53px;
+
+    align-items: baseline;
+}
+
+.main-beach-accomodation-descr{
+    height: 232px;
 }
 
 .main-beach-accomodation-descr > p{
@@ -166,4 +176,97 @@
     letter-spacing: 0%;
 
     color: rgba(61, 61, 61, 1);
+}
+
+.share{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 1200px;
+    height: 154px;
+
+    gap: 48px;
+}
+
+.share-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 463px;
+    height: 154px;
+
+    text-align: center;
+    align-content: space-between;
+    
+}
+
+.share-box > p{
+    font-family: Arima;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    color: rgba(84, 55, 13, 1);
+}
+
+.button-box{
+    width: 158px;
+    height: 48px;
+    border-radius: 40px;
+
+    gap: 10px;
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 158px;
+    height: 48px;
+    border-radius: 40px;
+
+    gap: 8px;
+    /* margin-top: 40px; */
+
+    background-color: rgba(78, 164, 135, 1);
+
+    animation-name: buttonmove; 
+    animation-duration: 0.1s;
+    position: relative;
+}
+
+.button:active
+
+
+@keyframes buttonmove {
+    from{
+        left: 0px;
+    }
+
+    to{
+        left: -20px;
+    }
+}
+
+.button > img{
+    width: 32px;
+    gap: 10px;
+}
+
+.button > p{
+    font-family: Arima;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 5%;
+
+    color: rgba(241, 201, 83, 1);
 }
