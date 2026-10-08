@@ -204,6 +204,14 @@
     
 }
 
+.radio-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 .share-box > p{
     font-family: Arima;
     font-weight: 500;
@@ -215,46 +223,76 @@
     color: rgba(84, 55, 13, 1);
 }
 
-.radio-a{
+.radio-box > img{
+    width: 32px;
+}
+
+.radio-box p{
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 5%;
+
+    color: rgba(241, 201, 83, 1);
+}
+
+.button-checkbox{
+    display: none;
+}
+
+.annimated-button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    
-    position: relative;
+    background-color: rgba(78, 164, 135, 1);
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    user-select: none;
 
     width: 158px;
     height: 48px;
-    border-radius: 40px;
+    transform: translateX(0);
 
-    background-color: rgba(78, 164, 135, 1);
-
-    transition: transform 0.4s ease; width: 0.4s ease;
-
-    cursor: pointer;
+    transition: transform 0.4s ease, width 0.4s ease;
 }
 
-
-.radio-slider input{
-    z-index: 2;
-}
-
-.radio-wrapper{
-    z-index: 1;
-    width: 100%;
-    height: 100%;
-
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-
-    transition: all 0.4s ease;
-}
-
-.radio-slider:checked + .radio-a{
+.button-checkbox:checked + .annimated-button{
     width: 100px;
     transform: translateX(-50px);
-    cursor: default;
+}
+
+
+.share-after-click{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.share-after-click-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.share-after-click img{
+    width: 32px;
+    margin: 10px;
+}
+
+.share-after-click{
+    font-family: Arima;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1rem;
+}
+
+.share-after-click-links:link{
+    color: rgba(78, 164, 135, 1);;
 }
