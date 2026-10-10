@@ -193,41 +193,61 @@
 .share-box{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    width: 463px;
+    justify-content: center;
+   
+    width: 493px;
     height: 154px;
-
-    text-align: center;
-    align-content: space-between;
     
+    position: relative;
 }
 
-.radio-box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.share-box > p{
+.share-box-text p{
     font-family: Arima;
     font-weight: 500;
     font-style: Medium;
     font-size: 1.5rem;
     line-height: 120%;
     letter-spacing: 0%;
+    text-align: center;
 
     color: rgba(84, 55, 13, 1);
+
+    width: 463px;
 }
 
-.radio-box > img{
+.radio-box{
+    display: table;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+
+    width: 350px;
+    gap: 48px;
+
+    position: absolute;
+    top: 90px;
+}
+
+.radio-box-image{
+    width: 100px;
+}
+
+.annimated-button > img{
     width: 32px;
 }
 
-.radio-box p{
+.radio-box-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+
+
+.radio-box-button p{
     font-family: Arima;
     font-weight: 700;
     font-style: Bold;
@@ -237,6 +257,13 @@
 
     color: rgba(241, 201, 83, 1);
 }
+
+.radio-box-button > img{
+   width: 106px;
+   border: 3px;
+   rotate: 5deg;
+}
+
 
 .button-checkbox{
     display: none;
