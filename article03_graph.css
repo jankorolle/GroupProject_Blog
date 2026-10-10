@@ -61,7 +61,7 @@
 .main-beach-accomodation{
     width: 1200px;
     height: 1047px;
-    gap: 88px;
+    gap: 80px;
 
     display: flex;
     flex-direction: column;
@@ -75,20 +75,11 @@
     
     width: 1118px;
     height: 727px;
-    gap: 80px;
+    gap: 60px;
 }
 
-.main-beach-accomodation-split-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-
-    gap: 24px;
-}
-
-.main-beach-accomodation-split-left > h2{
-    font-family: Arima;
+.main-beach-accomodation-split h2{
+     font-family: Arima;
     font-weight: 600;
     font-style: SemiBold;
     font-size: 2rem;
@@ -98,10 +89,9 @@
     text-align: center;
 
     color: rgba(84, 55, 13, 1);
-;
 }
 
-.main-beach-accomodation-split-left > p{
+.main-beach-accomodation-split p{
     font-family: Palanquin;
     font-weight: 400;
     font-style: Regular;
@@ -110,58 +100,45 @@
     letter-spacing: 0%;
 
     color: rgba(61, 61, 61, 1);
-;
+
+    justify-content: start;
 }
 
-.main-beach-accomodation-split-left > img{
+.main-beach-accomodation-split img{
     width: 519px;
     height: 471px;
     border-radius: 53px;
+}  
+
+.main-beach-accomodation-split-left{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100%;
+
+    gap: 24px;
+}
+
+.main-beach-accomodation-split-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100%;
 }
 
 
 .main-beach-accomodation-split-right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: 
     height: 100%;
 
     gap: 24px;
-
-    align-items: baseline;
 }
 
-.main-beach-accomodation-split-right > h2{
-    font-family: Arima;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 2rem;
-    line-height: 120%;
-    letter-spacing: 0%;
 
-    text-align: center;
-
-    color: rgba(84, 55, 13, 1);
-}
-
-.main-beach-accomodation-split-right > p{
-    font-family: Palanquin;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 1.5rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    color: rgba(61, 61, 61, 1);
-}
-
-.main-beach-accomodation-split-right > img{
-    width: 519px;
-    height: 471px;
-    border-radius: 53px;
-
-    align-items: baseline;
-}
 
 .main-beach-accomodation-descr{
     height: 232px;
@@ -177,6 +154,12 @@
 
     color: rgba(61, 61, 61, 1);
 }
+
+
+
+
+ /* In diesem Abschnitt wird der ganze Abschnitt um den Share Button und dessen Funktion definiert*/
+
 
 .share{
     display: flex;
@@ -245,8 +228,6 @@
     margin-top: 60px;
 }
 
-
-
 .radio-box-button p{
     font-family: Arima;
     font-weight: 700;
@@ -263,7 +244,6 @@
    border: 3px;
    rotate: 5deg;
 }
-
 
 .button-checkbox{
     display: none;
@@ -300,7 +280,6 @@
     display: flex;
 }
 
-
 .share-after-click{
     display: flex;
     flex-direction: row;
@@ -310,8 +289,6 @@
     display: none;
 }
 
-
-
 .share-after-click-links{
     display: flex;
     flex-direction: column;
@@ -320,7 +297,6 @@
 
     color: rgba(78, 164, 135, 1);
 }
-
 
 .share-after-click img{
     width: 32px;
@@ -333,7 +309,6 @@
     font-style: Regular;
     font-size: 1rem;
 }
-
 
 .share-after-click-links a:link{
     color: rgba(78, 164, 135, 1);
