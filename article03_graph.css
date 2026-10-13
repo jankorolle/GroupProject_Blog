@@ -6,7 +6,7 @@
     line-height: 120%;
     letter-spacing: 0%;
 
-    padding-top: 80px;
+    margin-top: 80px;
 }
 
 .main-rain{
@@ -14,11 +14,21 @@
     height: 756px;
     gap: 88px;
 
-    justify-content: center;
+    justify-content: space-between
     text-align: center;
-
-    padding-top: 80px;
 }
+
+
+.landing-section-introtext{
+        width: 100%;
+        height: 114px;
+}
+
+.landing-section-introtext > p{
+    font-size: 1rem;
+
+}
+
 
 .main-rain-graphic{
     height: 494px;
@@ -170,3 +180,265 @@
     color: rgba(61, 61, 61, 1);
 }
 
+
+
+/* Media Query max Breite 480px */
+
+@media screen and (max-width: 480px) {
+    
+   
+    .header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 5px 16px 5px 16px;
+        gap: 10px;
+    }
+
+
+    .header>img {
+        width: 56px;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .main{
+        width: 345px;
+        height: 2908px;
+
+        padding-top: 24px;
+        gap: 88px;
+    }
+
+    .landing-section-carousel{
+        width: 100%;
+        height: 670px;
+
+        gap: 40px;
+        padding-top: 0px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text{
+        width: 100%;
+        height: 248px;
+
+        gap: 24px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text > div > h2{
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > h1{
+        font-size: 2.5rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > p{
+        font-size: 1.125rem;
+    }
+
+    .landing-section-metadata{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        height: 46px;
+    }
+
+    .landing-section-metadata {
+        display: flex;
+        flex-direction: column;
+
+        width: 345px;
+        height: 46px;
+
+        gap: 16px;
+    }
+
+    .landing-section-metadata-rowone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 161px;
+        height: 19px;
+
+    }
+
+    .landing-section-metadata-rowtwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 161px;
+        height: 19px;
+    }
+
+    .landing-section-metadata-postdetails{
+        
+    }
+
+
+    .authorsection{
+        width: 345px;
+        height: 328px;
+
+        gap: 16px;
+    }
+
+    .author-img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .author-passage{
+        width: 328px;
+        height: 200px;
+    }
+
+
+    .authorsection-name{
+        font-size: 1rem;
+    }
+
+    .authorsection-job-titel{
+        font-size: 1rem;
+    }
+
+    .author-text{
+        width: 328px;
+        text-align: center;
+    }
+    
+    .main-rain{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        width: 345px
+        height: 1994px;
+        
+        gap: 32px;
+        margin-top: 80px;
+    }
+
+    .landing-section-introtext{
+        width: 345px;
+        height: 114px;
+    }
+
+    .landing-section-introtext > p{
+        font-size: 1rem;
+        text-align: start;
+    }
+
+    .main-rain-graphic{
+        width: 345px;
+        height: 232px;
+
+        gap: 24px;
+        justify-content: space-between;
+
+    }
+
+    .main-rain-graphic > h2{
+        font-size: 1.25rem;
+
+        text-align: center;
+    }
+   
+    .main-rain-graphic > img{
+        width: 345px;
+        height: 183px;
+        border-radius: 30px;
+    }
+
+    .main-rain-graphic-descr > p{
+        width: 345px;
+        
+        font-size: 1rem;
+    }
+
+    .main-beach-accomodation{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 345px;
+        height: 980px;
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 345px;
+        height: 478px;
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split h2{
+        font-size: 1.25rem;
+    }
+
+    .main-beach-accomodation-split p{
+        font-size: 1rem;
+    }
+
+    .main-beach-accomodation-split img{
+        width: 343px;
+        height: 311px;
+        border-radius: 30px;
+    }  
+
+    .main-beach-accomodation-split-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        height: 100%;
+
+        gap: 16px;
+    }
+
+   
+    .main-beach-accomodation-split-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        height: 100%;
+
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-descr{
+        width: 345px;
+        height: 342px;
+    }
+
+    .main-beach-accomodation-descr > p{
+        font-size: 1rem;
+    }
+
+}
