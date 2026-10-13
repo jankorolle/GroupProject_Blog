@@ -68,6 +68,173 @@ body {
 
 }
 
+/* In diesem Abschnitt wird der ganze Abschnitt um den Share Button und dessen Funktion definiert*/
+
+
+.share{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 1200px;
+    height: 154px;
+
+    gap: 48px;
+}
+
+.share-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    width: 493px;
+    height: 154px;
+    
+    position: relative;
+}
+
+.share-box-text p{
+    font-family: Arima;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+
+    color: rgba(84, 55, 13, 1);
+
+    width: 463px;
+}
+
+.radio-box{
+    display: table;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-end;
+
+    width: 350px;
+    gap: 48px;
+
+    position: absolute;
+    top: 90px;
+}
+
+.radio-box-image{
+    width: 100px;
+}
+
+.annimated-button > img{
+    width: 32px;
+    height: 32px;
+}
+
+.radio-box-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 60px;
+}
+
+.radio-box-button p{
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 1.5rem;
+    line-height: 120%;
+    letter-spacing: 5%;
+
+    color: rgba(241, 201, 83, 1);
+}
+
+.radio-box-button > img{
+   width: 106px;
+   border: 3px;
+   rotate: 5deg;
+}
+
+.button-checkbox{
+    display: none;
+}
+
+.annimated-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(78, 164, 135, 1);
+    text-align: center;
+    border-radius: 40px;
+    cursor: pointer;
+    user-select: none;
+
+    width: 158px;
+    height: 48px;
+    transform: translateX(0);
+
+    transition: transform 0.4s ease, width 0.2s ease;
+}
+
+.button-checkbox:checked + .annimated-button{
+    width: 120px;
+    transform: translateX(-0px);
+}
+
+.button-checkbox:checked + .annimated-button > img{
+    display: none;
+}
+
+.button-checkbox:checked ~ .share-after-click{
+    display: flex;
+}
+
+.share-after-click{
+    display: table;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    display: none;
+}
+
+.share-after-click-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    color: rgba(78, 164, 135, 1);
+}
+
+.share-after-click img{
+    width: 32px;
+    height: 32px;
+    margin: 0px 10px 0px 10px;
+}
+
+.share-after-click-links a{
+    font-family: Arima;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 1rem;
+}
+
+.share-after-click-links a:link{
+    color: rgba(78, 164, 135, 1);
+    text-decoration: none;
+}
+
+.share-after-click-links a:visited{
+    color: rgba(78, 164, 135, 1);
+    text-decoration: none;
+}
+
+
+/* Ab diesem Bereich kommt der Footer */
+
 
 .footer {
   width: 100%;
