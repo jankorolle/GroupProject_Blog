@@ -264,3 +264,42 @@ body {
   align-items: center;
   gap: 15px;
 }
+
+
+/* Media Query max Breite 375px */
+
+@media screen and {max-width: 480px;
+
+body {
+  min-height: 100dvh;
+  min-width: 345px;
+}
+
+
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 5px 16px 5px 16px;
+  gap: 10px;
+}
+
+
+.header>img {
+  width: 56px;
+}
+
+.header-buttons {
+  display: none;
+}
+
+
+
+
+
+
+}
