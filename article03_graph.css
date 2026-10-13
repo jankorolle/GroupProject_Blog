@@ -25,6 +25,19 @@
     gap: 24px;
 }
 
+.main-rain-graphic h2{
+    font-family: Arima;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 2rem;
+    line-height: 120%;
+    letter-spacing: 0%;
+
+    text-align: center;
+
+    color: rgba(84, 55, 13, 1);
+}
+
 .main-rain-graphic > p{
     font-family: Arima;
     font-weight: 600;
