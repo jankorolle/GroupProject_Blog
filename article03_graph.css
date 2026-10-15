@@ -1,186 +1,3 @@
-.landing-section-introtext > p{
-    font-family: Palanquin;
-    font-weight: 400;
-    font-style: Regualr;
-    font-size: 1.5rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    margin-top: 80px;
-}
-
-.main-rain{
-    width: 1200px;
-    height: 756px;
-    gap: 88px;
-
-    justify-content: space-between
-    text-align: center;
-}
-
-
-.landing-section-introtext{
-        width: 100%;
-        height: 114px;
-}
-
-.landing-section-introtext > p{
-    font-size: 1rem;
-
-}
-
-
-.main-rain-graphic{
-    height: 494px;
-    gap: 24px;
-}
-
-.main-rain-graphic h2{
-    font-family: Arima;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 2rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    text-align: center;
-
-    color: rgba(84, 55, 13, 1);
-}
-
-.main-rain-graphic > p{
-    font-family: Arima;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 2rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    gap: 30px;
-}   
-
-.main-rain-graphic > img{
-    width: 640px;
-    height: 436px;
-    border-radius: 53px;
-
-    padding-top: 20px;
-}
-
-.main-rain-graphic-descr > p{
-    font-family: Palanquin;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 1.5rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    text-align: start;
-
-    padding-top: 80px;
-
-}
-
-.main-beach-accomodation{
-    width: 1200px;
-    height: 1047px;
-    gap: 80px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    margin-top: 120px;
-}
-
-.main-beach-accomodation-split{
-    display: flex;
-    flex-direction: row;
-    
-    width: 1118px;
-    height: 727px;
-    gap: 60px;
-}
-
-.main-beach-accomodation-split h2{
-     font-family: Arima;
-    font-weight: 600;
-    font-style: SemiBold;
-    font-size: 2rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    text-align: center;
-
-    color: rgba(84, 55, 13, 1);
-}
-
-.main-beach-accomodation-split p{
-    font-family: Palanquin;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 1.5rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    color: rgba(61, 61, 61, 1);
-
-    justify-content: start;
-}
-
-.main-beach-accomodation-split img{
-    width: 519px;
-    height: 471px;
-    border-radius: 53px;
-}  
-
-.main-beach-accomodation-split-left{
-    display: flex;
-    flex-direction: column;
-    /* justify-content: space-between; */
-    height: 100%;
-
-    gap: 24px;
-}
-
-.main-beach-accomodation-split-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-    height: 100%;
-}
-
-
-.main-beach-accomodation-split-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: 
-    height: 100%;
-
-    gap: 24px;
-}
-
-
-
-.main-beach-accomodation-descr{
-    height: 232px;
-}
-
-.main-beach-accomodation-descr > p{
-     font-family: Palanquin;
-    font-weight: 400;
-    font-style: Regular;
-    font-size: 1.5rem;
-    line-height: 120%;
-    letter-spacing: 0%;
-
-    color: rgba(61, 61, 61, 1);
-}
-
-
 
 /* Media Query max Breite 480px */
 
@@ -207,12 +24,19 @@
     }
 
     .main{
-        width: 345px;
-        height: 2908px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 375px;
+        height: 2930px;
 
         padding-top: 24px;
         gap: 88px;
     }
+
+   
 
     .landing-section-carousel{
         width: 100%;
@@ -326,64 +150,90 @@
         text-align: center;
     }
     
-    .main-rain{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        
-        width: 345px
-        height: 1994px;
-        
-        gap: 32px;
-        margin-top: 80px;
-    }
 
-    .landing-section-introtext{
-        width: 345px;
-        height: 114px;
-    }
 
-    .landing-section-introtext > p{
-        font-size: 1rem;
-        text-align: start;
-    }
+/* Main content */
 
-    .main-rain-graphic{
-        width: 345px;
-        height: 232px;
 
-        gap: 24px;
-        justify-content: space-between;
-
-    }
-
-    .main-rain-graphic > h2{
-        font-size: 1.25rem;
-
-        text-align: center;
-    }
-   
-    .main-rain-graphic > img{
-        width: 345px;
-        height: 183px;
-        border-radius: 30px;
-    }
-
-    .main-rain-graphic-descr > p{
-        width: 345px;
-        
-        font-size: 1rem;
-    }
-
-    .main-beach-accomodation{
+    .main-section{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
         
         width: 345px;
-        height: 980px;
-        gap: 16px;
+        height: 2125px;
+        
+        gap: 32px;
+    }
+
+    .landing-section-introtext{
+        width: 345px;
+        height: 173px;
+    }
+
+    .landing-section-introtext > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+    .main-rain-graphic{
+        width: 345px;
+        height: 288px;
+
+        margin-top: 40px;
+
+        gap: 24px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .main-rain-graphic > h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+   
+    .main-rain-graphic > img{
+        width: 345px;
+        border-radius: 30px;
+
+        justify-content: center;
+        
+        padding-top: 0px;
+    }
+
+
+    .main-rain-graphic-descr{
+        width: 345px;
+        height: 193px;
+
+        margin-top: 40px;
+    }
+
+    .main-rain-graphic-descr > p{
+       font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
     }
 
     .main-beach-accomodation-split{
@@ -393,52 +243,236 @@
         align-items: center;
         
         width: 345px;
-        height: 478px;
+        height: 972px;
         gap: 16px;
     }
 
-    .main-beach-accomodation-split h2{
+    .main-beach-accomodation-split-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 345px;
+        height: 478px;
+
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split-box h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
         font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
     }
 
-    .main-beach-accomodation-split p{
+    .main-beach-accomodation-split-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 345px;
+        height: 438px;
+    }
+
+    .main-beach-accomodation-split-content p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
         font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
     }
 
-    .main-beach-accomodation-split img{
+
+    .main-beach-accomodation-split-content img{
         width: 343px;
-        height: 311px;
         border-radius: 30px;
     }  
 
-    .main-beach-accomodation-split-left{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        
-        height: 100%;
 
-        gap: 16px;
-    }
-
-   
-    .main-beach-accomodation-split-right{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-        height: 100%;
-
-        gap: 16px;
-    }
 
     .main-beach-accomodation-descr{
         width: 345px;
-        height: 342px;
+        height: 288px;
     }
 
     .main-beach-accomodation-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
         font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .share{
+        width: 343px;
+        height: 140px;
+
+        gap: 48px;
+    }
+
+    .share-box{
+        width: 343;
+        height: 140px;
+        
+        position: relative;
+    }
+
+    .share-box-text{
+        width: 343px;
+    }
+
+    .share-box-text p{
+        font-family: Arima;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+
+        color: rgba(84, 55, 13, 1);
+        width: 343px;
+    }
+
+    .radio-box{
+        display: table;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-end;
+
+        width: 343px;
+        gap: 48px;
+
+        position: absolute;
+        top: 90px;
+    }
+
+    .radio-box-image > img{
+        width: 75px;
+        height: 50px;
+        rotate: 45deg;
+    }
+
+    .annimated-button > img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .radio-box-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 60px;
+    }
+
+    .radio-box-button p{
+        font-family: Arima;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 5%;
+
+        color: rgba(241, 201, 83, 1);
+    }
+
+    .radio-box-button > img{
+    width: 106px;
+    border: 3px;
+    }
+
+    .button-checkbox{
+        display: none;
+    }
+
+    .annimated-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(78, 164, 135, 1);
+        text-align: center;
+        border-radius: 40px;
+        cursor: pointer;
+        user-select: none;
+
+        width: 158px;
+        height: 48px;
+        transform: translateX(0);
+
+        transition: transform 0.4s ease, width 0.2s ease;
+    }
+
+    .button-checkbox:checked + .annimated-button{
+        width: 120px;
+        transform: translateX(-0px);
+    }
+
+    .button-checkbox:checked + .annimated-button > img{
+        display: none;
+    }
+
+    .button-checkbox:checked ~ .share-after-click{
+        display: flex;
+    }
+
+    .share-after-click{
+        display: table;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        display: none;
+    }
+
+    .share-after-click-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        color: rgba(78, 164, 135, 1);
+    }
+
+    .share-after-click img{
+        width: 32px;
+        height: 32px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .share-after-click-links a{
+        font-family: Arima;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+    }
+
+    .share-after-click-links a:link{
+        color: rgba(78, 164, 135, 1);
+        text-decoration: none;
+    }
+
+    .share-after-click-links a:visited{
+        color: rgba(78, 164, 135, 1);
+        text-decoration: none;
     }
 
 }
