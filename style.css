@@ -268,14 +268,12 @@ body {
 
 /* Media Query max Breite 480px */
 
-@media screen and (max-width: 480px;) { 
+@media screen and (max-width: 480px) { 
 
   body {
     min-height: 100dvh;
     min-width: 345px;
   }
-
-
 
   .header {
     width: 100%;
@@ -288,9 +286,9 @@ body {
     gap: 10px;
   }
 
-
-  .header>img {
+  .header img {
     width: 56px;
+    height: 56px;
   }
 
   .header-buttons {
