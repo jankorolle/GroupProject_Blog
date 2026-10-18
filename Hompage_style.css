@@ -464,7 +464,7 @@ vaadin-accordion-panel[opened] {
   left: -2px;
 }
 
-.share {
+.shareForm {
   display: flex;
   flex-direction: column;
   align-items: center;

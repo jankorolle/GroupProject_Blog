@@ -1,0 +1,113 @@
+@media (max-width:376px) {
+
+
+    body {
+        max-width: 375px;
+        height: 100%;
+    }
+
+    .hero-image {
+        width: 375px;
+
+    }
+
+    .main-section {
+        width: 375px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .hero-text h1 {
+        display: none;
+        font-size: 60px;
+    }
+
+    .hero-text p {
+        display: none;
+        font-size: 28px;
+    }
+
+    .highlightsDiscription {
+        display: none;
+    }
+
+    .highlights-Content-img {
+        width: 335px;
+    }
+
+    .highlightsContent {
+
+        height: 533px;
+        max-width: 335px;
+        width: 100%;
+    }
+
+    .highlightsContentBox {
+            top: 100px;
+
+        width: 268px;
+    }
+
+    .highlights-Content-Text {
+        font-size: 20px;
+        height: 100%;
+        overflow: hidden;
+
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+
+        line-clamp: 4;
+        text-overflow: ellipsis;
+    }
+
+    .sliderLink {
+        width: 335px;
+    }
+
+    .slider_a {
+        width: 335px;
+    }
+
+    .FAQ_section {
+        width: 335px;
+    }
+
+    .accordion {
+        margin-bottom: 15px;
+        border-radius: 12px;
+
+    }
+
+    .panel {
+        margin-bottom: 12px;
+    }
+
+    .OverallBox {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .ShareBox {
+        width: 344px;
+        min-width: 0;
+    }
+
+    .share-text {
+        display: none;
+    }
+
+    .privacyPolicy {
+        width: 338px;
+    }
+
+}
