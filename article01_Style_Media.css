@@ -81,4 +81,33 @@
     .slider-section > div > p {
         font-size: 1.25rem;
     }
+
+    .description-box{
+        font-size: 1rem;
+    }
+
+    .info{
+        padding: 32px 0px;
+    }
+
+    .info-p-tag{
+        font-size: 1rem;
+    }
+
+    .info-li-tag{
+        font-size: 1rem;
+    }
+
+    .pro-tipps{
+        width: 345px;
+        height: 309px;
+        padding: 0px 0px 0px 5px;
+        margin-bottom: 90px;
+    }
+
+    .pro-tipps-discription{
+        width: 345px;
+        height: 238px;
+        font-size: 1rem;
+    }
 }
