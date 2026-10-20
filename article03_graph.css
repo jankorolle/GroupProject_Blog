@@ -1,7 +1,8 @@
 
-/* Media Query max Breite 480px */
+/* Media Query max Breite 375px */
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 375px) and (max-width: 479px){
+
     
    
     .header {
@@ -32,14 +33,13 @@
         width: 375px;
         height: 2930px;
 
-        padding-top: 24px;
         gap: 88px;
     }
 
    
 
     .landing-section-carousel{
-        width: 100%;
+        width: 345px;
         height: 670px;
 
         gap: 40px;
@@ -162,13 +162,13 @@
         align-items: center;
         
         width: 345px;
-        height: 2125px;
+        height: 2038px;
         
         gap: 32px;
     }
 
     .landing-section-introtext{
-        width: 345px;
+        width: 100%;
         height: 173px;
     }
 
@@ -185,15 +185,15 @@
     }
 
     .main-rain-graphic{
-        width: 345px;
-        height: 288px;
-
-        margin-top: 40px;
-
-        gap: 24px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+        height: 288px;
+
+        margin-top: 40px;
     }
 
     .main-rain-graphic > h2{
@@ -208,7 +208,7 @@
     }
    
     .main-rain-graphic > img{
-        width: 345px;
+        width: 100%;
         border-radius: 30px;
 
         justify-content: center;
@@ -218,7 +218,7 @@
 
 
     .main-rain-graphic-descr{
-        width: 345px;
+        width: 100%;
         height: 193px;
 
         margin-top: 40px;
@@ -242,7 +242,7 @@
         justify-content: center;
         align-items: center;
         
-        width: 345px;
+        width: 100%;
         height: 972px;
         gap: 16px;
     }
@@ -253,7 +253,7 @@
         justify-content: space-between;
         align-items: center;
         
-        width: 345px;
+        width: 100%;
         height: 478px;
 
         gap: 16px;
@@ -276,7 +276,7 @@
         justify-content: space-between;
         align-items: center;
 
-        width: 345px;
+        width: 100%;
         height: 438px;
     }
 
@@ -301,7 +301,7 @@
 
 
     .main-beach-accomodation-descr{
-        width: 345px;
+        width: 100%;
         height: 288px;
     }
 
@@ -318,6 +318,8 @@
     }
 
 
+    /* Share Button mit Position und Animation */
+
     .share{
         width: 343px;
         height: 140px;
@@ -326,14 +328,14 @@
     }
 
     .share-box{
-        width: 343;
+        width: 100%;
         height: 140px;
         
         position: relative;
     }
 
     .share-box-text{
-        width: 343px;
+        width: 100%;
     }
 
     .share-box-text p{
@@ -473,6 +475,1437 @@
     .share-after-click-links a:visited{
         color: rgba(78, 164, 135, 1);
         text-decoration: none;
+    }
+
+
+    /* Ab diesem Bereich kommt der Footer */
+
+
+    .footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    height: 128px;
+    background-color: rgba(78, 164, 135, 1);
+    padding: 0px 146px 0px 146px;
+    justify-content: space-between;
+    font-family: Palanquin;
+    }
+
+    .footer-section-left-links {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    }
+
+    .footer-section-left-copyright {
+    display: flex;
+    align-items: center;
+    }
+
+    .footer-section-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    }
+
+}
+
+
+
+
+
+/* Media Query min Breite 480px und max Breite 580px */
+
+@media screen and (min-width: 480px) and (max-width: 580px) {
+
+    .header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 5px 16px 5px 16px;
+        gap: 10px;
+    }
+
+
+    .header>img {
+        width: 56px;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 480px;
+        height: 3520px;
+
+        gap: 88px;
+    }
+
+
+    .landing-section-carousel{
+        width: 450px;
+        height: 670px;
+
+        gap: 40px;
+        padding-top: 0px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text{
+        width: 100%;
+        height: 248px;
+
+        gap: 24px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text > div > h2{
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > h1{
+        font-size: 2.5rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > p{
+        font-size: 1.125rem;
+    }
+
+
+    .landing-section-metadata{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        height: 46px;
+    }
+
+    .landing-section-metadata {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 46px;
+
+        gap: 16px;
+    }
+
+    .landing-section-metadata-rowone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 161px;
+        height: 19px;
+
+    }
+
+    .landing-section-metadata-rowtwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 161px;
+        height: 19px;
+    }
+
+    .landing-section-metadata-postdetails{
+        
+    }
+
+
+    .authorsection{
+        width: 450px;
+        height: 328px;
+
+        gap: 16px;
+    }
+
+    .author-img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .author-passage{
+        width: 95%;
+        height: 200px;
+    }
+
+
+    .authorsection-name{
+        font-size: 1rem;
+    }
+
+    .authorsection-job-titel{
+        font-size: 1rem;
+    }
+
+    .author-text{
+        width: 95%;
+        text-align: center;
+    }
+
+
+    /* Main content */
+
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 480px;
+        height: 2621px;
+        
+        gap: 32px;
+    }
+
+    .landing-section-introtext{
+        width: 450px;
+        height: 135px;
+    }
+
+    .landing-section-introtext > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+    .main-rain-graphic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 450px;
+        height: 360px;
+
+        margin-top: 40px;
+
+        gap: 24px;
+        
+    }
+
+    .main-rain-graphic > h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+   
+    .main-rain-graphic > img{
+        width: 100%;
+        border-radius: 30px;
+
+        justify-content: center;
+        
+        padding-top: 0px;
+    }
+
+    .main-rain-graphic-descr{
+        width: 450px;
+        height: 220px;
+    }
+
+    .main-rain-graphic-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-beach-accomodation-split{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 1156px;
+        gap: 40px;
+    }
+
+    .main-beach-accomodation-split-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+        height: 570px;
+
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split-box h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+
+    .main-beach-accomodation-split-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 450px;
+        height: 520px;
+    }
+
+    .main-beach-accomodation-split-content p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-beach-accomodation-split-content img{
+        width: 95%;
+        border-radius: 30px;
+    }  
+
+
+    .main-beach-accomodation-descr{
+        width: 450px;
+        height: 250px;
+    }
+
+    .main-beach-accomodation-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+        
+    }
+
+
+
+    /* Share Button mit Position und Animation */
+
+    .share{
+        width: 343px;
+        height: 140px;
+
+        gap: 48px;
+    }
+
+    .share-box{
+        width: 100%;
+        height: 140px;
+        
+        position: relative;
+    }
+
+    .share-box-text{
+        width: 100%;
+    }
+
+    .share-box-text p{
+        font-family: Arima;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+
+        color: rgba(84, 55, 13, 1);
+        width: 343px;
+    }
+
+    .radio-box{
+        display: table;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-end;
+
+        width: 343px;
+        gap: 48px;
+
+        position: absolute;
+        top: 90px;
+    }
+
+    .radio-box-image > img{
+        width: 75px;
+        height: 50px;
+        rotate: 45deg;
+    }
+
+    .annimated-button > img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .radio-box-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 60px;
+    }
+
+    .radio-box-button p{
+        font-family: Arima;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 5%;
+
+        color: rgba(241, 201, 83, 1);
+    }
+
+    .radio-box-button > img{
+    width: 106px;
+    border: 3px;
+    }
+
+    .button-checkbox{
+        display: none;
+    }
+
+    .annimated-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(78, 164, 135, 1);
+        text-align: center;
+        border-radius: 40px;
+        cursor: pointer;
+        user-select: none;
+
+        width: 158px;
+        height: 48px;
+        transform: translateX(0);
+
+        transition: transform 0.4s ease, width 0.2s ease;
+    }
+
+    .button-checkbox:checked + .annimated-button{
+        width: 120px;
+        transform: translateX(-0px);
+    }
+
+    .button-checkbox:checked + .annimated-button > img{
+        display: none;
+    }
+
+    .button-checkbox:checked ~ .share-after-click{
+        display: flex;
+    }
+
+    .share-after-click{
+        display: table;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        display: none;
+    }
+
+    .share-after-click-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        color: rgba(78, 164, 135, 1);
+    }
+
+    .share-after-click img{
+        width: 32px;
+        height: 32px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .share-after-click-links a{
+        font-family: Arima;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+    }
+
+    .share-after-click-links a:link{
+        color: rgba(78, 164, 135, 1);
+        text-decoration: none;
+    }
+
+    .share-after-click-links a:visited{
+        color: rgba(78, 164, 135, 1);
+        text-decoration: none;
+    }
+
+
+
+
+}
+
+
+
+
+/* Media Query min Breite 581px und max Breite 767px */
+
+@media screen and (min-width: 581px) and (max-width: 767px) {
+
+    .header {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+
+        padding: 5px 16px 5px 16px;
+        gap: 10px;
+    } 
+
+
+    .header>img {
+        width: 56px;
+    }
+
+    .header-buttons {
+        display: none;
+    }
+    
+
+   .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 581px;
+        height: 3520px;
+
+        gap: 88px;
+    }
+
+    .landing-section-carousel{
+        width: 550px;
+        height: 670px;
+
+        gap: 40px;
+        padding-top: 0px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text{
+        width: 100%;
+        height: 248px;
+
+        gap: 24px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text > div > h2{
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > h1{
+        font-size: 2.5rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > p{
+        font-size: 1.125rem;
+    }
+
+
+    .landing-section-metadata{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        height: 46px;
+    }
+
+    .landing-section-metadata {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+        height: 46px;
+
+        gap: 16px;
+    }
+
+    .landing-section-metadata-rowone{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 161px;
+        height: 19px;
+
+    }
+
+    .landing-section-metadata-rowtwo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        width: 161px;
+        height: 19px;
+    }
+
+    .landing-section-metadata-postdetails{
+        
+    }
+
+
+
+    .authorsection{
+        width: 550px;
+        height: 328px;
+
+        gap: 16px;
+    }
+
+    .author-img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .author-passage{
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .authorsection-name{
+        font-size: 1rem;
+    }
+
+    .authorsection-job-titel{
+        font-size: 1rem;
+    }
+
+    .author-text{
+        width: 100%;
+        text-align: center;
+    }
+
+
+
+    /* Main content */
+
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 581px;
+        height: 2480px;
+        
+        gap: 32px;
+    }
+
+    .landing-section-introtext{
+        width: 550px;
+        height: 135px;
+    }
+
+    .landing-section-introtext > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-rain-graphic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 550px;
+        height: 430px;
+
+        margin-top: 40px;
+
+        gap: 24px;
+        
+    }
+
+    .main-rain-graphic > h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+   
+    .main-rain-graphic > img{
+        width: 100%;
+        border-radius: 30px;
+
+        justify-content: center;
+        
+        padding-top: 0px;
+    }
+
+
+    .main-rain-graphic-descr{
+        width: 550px;
+        height: 220px;
+    }
+
+    .main-rain-graphic-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+    .main-beach-accomodation-split{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 1290px;
+        gap: 40px;
+    }
+
+    .main-beach-accomodation-split-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+        height: 632px;
+
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split-box h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+
+    .main-beach-accomodation-split-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 550px;
+        height: 582px;
+    }
+
+    .main-beach-accomodation-split-content p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-beach-accomodation-split-content img{
+        width: 95%;
+        border-radius: 30px;
+    }  
+
+
+    .main-beach-accomodation-descr{
+        width: 550px;
+        height: 250px;
+    }
+
+    .main-beach-accomodation-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+        
+    }
+
+
+
+    /* Share Button mit Position und Animation */
+
+    .share{
+        width: 343px;
+        height: 140px;
+
+        gap: 48px;
+    }
+
+    .share-box{
+        width: 100%;
+        height: 140px;
+        
+        position: relative;
+    }
+
+    .share-box-text{
+        width: 100%;
+    }
+
+    .share-box-text p{
+        font-family: Arima;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+
+        color: rgba(84, 55, 13, 1);
+        width: 343px;
+    }
+
+    .radio-box{
+        display: table;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-end;
+
+        width: 343px;
+        gap: 48px;
+
+        position: absolute;
+        top: 90px;
+    }
+
+    .radio-box-image > img{
+        width: 75px;
+        height: 50px;
+        rotate: 45deg;
+    }
+
+    .annimated-button > img{
+        width: 32px;
+        height: 32px;
+    }
+
+    .radio-box-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        margin-top: 60px;
+    }
+
+    .radio-box-button p{
+        font-family: Arima;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 5%;
+
+        color: rgba(241, 201, 83, 1);
+    }
+
+    .radio-box-button > img{
+    width: 106px;
+    border: 3px;
+    }
+
+    .button-checkbox{
+        display: none;
+    }
+
+    .annimated-button{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: rgba(78, 164, 135, 1);
+        text-align: center;
+        border-radius: 40px;
+        cursor: pointer;
+        user-select: none;
+
+        width: 158px;
+        height: 48px;
+        transform: translateX(0);
+
+        transition: transform 0.4s ease, width 0.2s ease;
+    }
+
+    .button-checkbox:checked + .annimated-button{
+        width: 120px;
+        transform: translateX(-0px);
+    }
+
+    .button-checkbox:checked + .annimated-button > img{
+        display: none;
+    }
+
+    .button-checkbox:checked ~ .share-after-click{
+        display: flex;
+    }
+
+    .share-after-click{
+        display: table;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        display: none;
+    }
+
+    .share-after-click-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        color: rgba(78, 164, 135, 1);
+    }
+
+    .share-after-click img{
+        width: 32px;
+        height: 32px;
+        margin: 0px 10px 0px 10px;
+    }
+
+    .share-after-click-links a{
+        font-family: Arima;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+    }
+
+    .share-after-click-links a:link{
+        color: rgba(78, 164, 135, 1);
+        text-decoration: none;
+    }
+
+    .share-after-click-links a:visited{
+        color: rgba(78, 164, 135, 1);
+        text-decoration: none;
+    }
+
+}
+
+
+/* Media Query min Breite 768px und max Breite 1055px */
+
+@media screen and (min-width: 768px) and (max-width: 1055px) {
+
+    .header {
+        width: 100%;
+        height: 128px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        padding: 5px 16px 5px 16px;
+        gap: 10px;
+    }
+
+
+    .header > a > img{
+        width: 72px;
+    }
+
+    .header-buttons {
+        display: flex;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 756px;
+        height: 4500px;
+
+        gap: 88px;
+    }
+
+    .landing-section-carousel{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: 756px;
+        height: 534px;
+
+        gap: 40px;
+        padding-top: 20px;
+
+        
+    }
+
+    .landing-section-text{
+        width: 456px;
+        height: 490px;
+
+        gap: 24px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .landing-section-text > div > h2{
+        font-size: 2.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > h1{
+        font-size: 4rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > p{
+        font-size: 1.25rem;
+    }
+
+    .landing-section-metadata{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 36px;
+        width: 100%;
+
+        gap: 16px;
+    }
+
+    .landing-section-metadata ~ p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+
+    .landing-section-metadata-upperrow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        width: 100%;
+        gap: 30px;
+    }
+  
+    .landing-section-metadata-calendar{
+        display: flex;
+        flex-direction: row;
+        width: 136px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-calendar > img{
+        width: 16px;
+    }
+
+    .landing-section-metadata-glasses{
+        display: flex;
+        flex-direction: row;
+        width: 161px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-glasses > img{
+        width: 20px;
+    }
+    
+
+    .landing-section-metadata-lowerrow{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        width: 100%;
+        gap: 30px;
+    }
+  
+    .landing-section-metadata-eye{
+        display: flex;
+        flex-direction: row;
+        width: 86px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-eye > img{
+        width: 20px;
+    }
+
+    .landing-section-metadata-share{
+        display: flex;
+        flex-direction: row;
+        width: 93px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-share > img{
+        width: 16px;
+    }
+
+
+
+
+    .authorsection{
+        width: 272px;
+        height: 514px;
+
+        gap: 16px;
+    }
+
+    .author-img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .author-passage{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: 310px;
+    }
+
+    .authorsection-name{
+        font-size: 1.125rem;
+    }
+
+    .authorsection-job-titel{
+        font-size: 1.125rem;
+    }
+
+    .author-text{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    
+    /* Main content */
+
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 768px;
+        height: 3750px;
+        
+        gap: 32px;
+    }
+
+    .landing-section-introtext{
+        width: 756px;
+        height: 175px;
+    }
+
+    .landing-section-introtext > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-rain-graphic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 768px;
+        height: 600px;
+
+        margin-top: 40px;
+
+        gap: 24px;
+        
+    }
+
+    .main-rain-graphic > h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 2.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+   
+    .main-rain-graphic > img{
+        width: 100%;
+        border-radius: 53px;
+
+        justify-content: center;
+        
+        padding-top: 0px;
+    }
+
+
+    .main-rain-graphic-descr{
+        width: 756px;
+        height: 220px;
+    }
+
+    .main-rain-graphic-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+    .main-beach-accomodation-split{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 1800px;
+        gap: 40px;
+    }
+
+    .main-beach-accomodation-split-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+        height: 890px;
+
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split-box h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 2.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+
+    .main-beach-accomodation-split-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 756px;
+        height: 790px;
+    }
+
+    .main-beach-accomodation-split-content p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-beach-accomodation-split-content img{
+        width: 95%;
+        border-radius: 30px;
+    }  
+
+    .main-beach-accomodation-descr{
+        width: 756px;
+        height: 250px;
+    }
+
+    .main-beach-accomodation-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.5rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+        
+    }
+
+
+    /* Ab diesem Bereich kommt der Footer */
+
+
+    .footer {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 152px;
+    
+    background-color: rgba(78, 164, 135, 1);
+    color: #ffffff;
+        
+    padding: 60px 30px 60px 30px;
+   
+    font-family: Palanquin;
+    }
+
+    .footer-navigation-box{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        justify-content: center;
+
+        width: 100%;
+        height: 32px;
+        gap: 90px;
+    }
+
+
+
+    .footer-section-left-links {
+        display: flex;
+        /* justify-content: space-between; */
+        align-items: center;
+        gap: 30px;
+    }
+
+    .footer-section-left-copyright {
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-section-right {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-section-right img{
+        height: 32px
+    }
+
+    .footer-section-right a{
+        height: 32px;
     }
 
 }

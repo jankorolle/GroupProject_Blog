@@ -255,3 +255,7 @@
   line-height: 120%;
   text-align: center;
 }
+
+.nav-bar{
+  display: none;
+}
