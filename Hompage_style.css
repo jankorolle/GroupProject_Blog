@@ -318,7 +318,6 @@ input[type="radio"]:checked {
 
 .slider_a {
   position: relative;
-  width: 1200px;
   height: 533px;
   overflow: hidden;
   border-radius: 0 100px 0 0;
@@ -476,6 +475,7 @@ vaadin-accordion-panel[opened] {
 
 .share-text {
   font-family: Palanquin;
+  margin-bottom: 20px;
 }
 
 label {
