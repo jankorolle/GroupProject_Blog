@@ -1,4 +1,403 @@
-@media (max-width:376px) {
+@media (max-width:1460px) {
+    .landing-section {
+
+        max-width: 1200px;
+
+    }
+
+    .hero-image {
+        width: 1200px;
+    }
+
+    .main-section {
+        width: 1200px;
+    }
+
+
+    .FAQ_section {
+        max-width: 1200px;
+    }
+
+    .shareForm {
+        max-width: 1200px;
+    }
+
+    .OverallBox {
+        width: 1000px;
+    }
+
+    .ShareBox {
+        width: 350px;
+
+    }
+}
+
+@media (max-width:1225px) {
+    .landing-section {
+
+        max-width: 990px;
+
+    }
+
+    .hero-image {
+        width: 990px;
+    }
+
+    .hero-text p {
+        font-size: 25px;
+        width: 335px;
+    }
+
+    .main-section {
+        width: 990px;
+    }
+
+    .FAQ_section {
+        max-width: 990px;
+    }
+
+    .OverallBox {
+        width: 990px;
+    }
+
+    .shareForm {
+        max-width: 990px;
+    }
+
+    .Contact-form {
+        max-width: 990px;
+
+    }
+
+    .question {
+        max-width: 990px;
+    }
+
+}
+
+@media (max-width:1020px) {
+    .landing-section {
+
+        max-width: 800px;
+
+    }
+
+    .hero-image {
+        width: 800px;
+    }
+
+    .hero-text p {
+        font-size: 25px;
+        width: 255px;
+    }
+
+    .main-section {
+        width: 800px;
+    }
+
+    .highlightsContentBox {
+        width: 550px;
+    }
+
+    .FAQ_section {
+        max-width: 800px;
+    }
+
+    .shareForm {
+        max-width: 800px;
+    }
+
+    .share-text {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .OverallBox {
+        width: 800px;
+    }
+
+    .ShareBox {
+        width: 800px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .question {
+
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+}
+
+@media (max-width:830px) {
+    .landing-section {
+
+        max-width: 720px;
+
+    }
+
+    .hero-image {
+        width: 720px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+        width: 220px;
+    }
+
+    .main-section {
+        width: 720px;
+    }
+
+    .FAQ_section {
+        max-width: 720px;
+    }
+
+    .shareForm {
+        max-width: 720px;
+    }
+
+
+
+    .OverallBox {
+        width: 720px;
+    }
+
+    .ShareBox {
+        width: 720px;
+        margin-left: 50px;
+
+    }
+}
+
+@media (max-width:740px) {
+    .landing-section {
+
+        max-width: 630px;
+
+    }
+
+    .hero-image {
+        width: 630px;
+    }
+
+    .hero-text p {
+        font-size: 20px;
+        width: 190px;
+    }
+
+    .main-section {
+        width: 630px;
+    }
+
+    .FAQ_section {
+        max-width: 630px;
+    }
+
+    .shareForm {
+        max-width: 630px;
+    }
+
+    .OverallBox {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 100%;
+    }
+
+    .ShareBox {
+        width: 500px;
+        min-width: 0;
+        margin: 0px;
+    }
+
+    .question {
+        margin: 0px;
+    }
+
+    .privacyPolicy {
+        width: 500px;
+    }
+}
+
+@media (max-width:650px) {
+    .hero-text h1 {
+        font-size: 30px;
+
+
+
+    }
+
+    .landing-section {
+
+        max-width: 540px;
+
+    }
+
+    .hero-image {
+        width: 540px;
+    }
+
+    .hero-text p {
+        font-size: 17px;
+        width: 160px;
+    }
+
+    .main-section {
+        width: 540px;
+    }
+
+    .FAQ_section {
+        max-width: 540px;
+    }
+
+    .shareForm {
+        max-width: 540px;
+
+    }
+}
+
+@media (max-width:560px) {
+    .hero-text h1 {
+        font-size: 25px;
+    }
+
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .landing-section {
+        max-width: 450px;
+    }
+
+    .hero-image {
+        width: 450px;
+    }
+
+    .hero-text p {
+        font-size: 17px;
+        width: 140px;
+    }
+
+    .main-section {
+        width: 450px;
+    }
+
+    .highlightsDiscription {
+        display: none;
+    }
+
+    .highlights-Content-Text {
+        max-width: 450px;
+        font-size: 20px;
+    }
+
+    .FAQ_section {
+        max-width: 450px;
+    }
+
+    .shareForm {
+        max-width: 450px;
+    }
+
+
+    .ShareBox {
+        width: 450px;
+    }
+
+    .Contact-form {
+        width: 450px;
+    }
+
+    .question {
+        max-width: 450px;
+    }
+
+    .privacyPolicy {
+        width: 450px;
+    }
+
+}
+
+@media (max-width:480px) {
+    .hero-text h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    h3 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    .landing-section {
+        max-width: 370px;
+    }
+
+    .hero-image {
+        width: 370px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+        width: 110px;
+    }
+
+    .main-section {
+        width: 370px;
+    }
+
+    .highlightsContentBox {
+        width: 370px;
+    }
+
+
+    .highlights-Content-Text {
+
+        max-width: 370px;
+        font-size: 20px;
+    }
+
+    .FAQ_section {
+        max-width: 370px;
+    }
+
+    .shareForm {
+
+
+        max-width: 370px;
+    }
+
+
+    .ShareBox {
+        width: 370px;
+    }
+
+    .Contact-form {
+        width: 370px;
+    }
+
+    .question {
+        max-width: 370px;
+    }
+
+    .privacyPolicy {
+        width: 370px;
+    }
+
+}
+
+@media (max-width:400px) {
 
 
     body {
@@ -50,7 +449,7 @@
     }
 
     .highlightsContentBox {
-            top: 100px;
+        top: 100px;
 
         width: 268px;
     }
@@ -107,7 +506,19 @@
     }
 
     .privacyPolicy {
-        width: 338px;
+        width: 344px;
     }
 
+    .shareForm {
+        max-width: 344px;
+    }
+
+
+    .Contact-form {
+        width: 344px;
+    }
+
+    .question {
+        max-width: 344px;
+    }
 }
