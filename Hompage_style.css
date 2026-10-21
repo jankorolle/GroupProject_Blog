@@ -588,6 +588,10 @@ input:focus {
   Border: none;
 }
 
+.nav-bar{
+  display: none;
+}
+
 /* * {
   background: #000 !important;
   color: #0f0 !important;
