@@ -294,4 +294,21 @@ body {
   .header-buttons {
     display: none;
   }
+
+  .footer{
+    width: 100%;
+    padding: 0px 15px 15px 15px;;
+  }
+  .footer-section-left-links{
+    gap: 0px  ;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+  .footer-section-right{
+    align-self: flex-end;
+  }
+  
+
+
 }
+
