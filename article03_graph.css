@@ -1409,7 +1409,7 @@
         display: none;
     }
 
-     .main{
+    .main{
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -1450,16 +1450,6 @@
         gap: 8px;
     }
 
-     .landing-section-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-
-        width: 100%;
-        height: 320px;
-        gap: 8px;
-    }
 
     .landing-section-text > div > h2{
         font-size: 1.25rem;
@@ -1479,46 +1469,7 @@
         font-size: 1.25rem;
     }
 
-    .landing-section-carousel{
-        width: 530px;
-        height: 690px;
 
-        gap: 24px;
-        padding-top: 0px;
-        padding: 0px;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .landing-section-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-
-        width: 100%;
-        height: 320px;
-        gap: 8px;
-    }
-
-    .landing-section-text > div > h2{
-        font-size: 1.25rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-
-        text-align: start;    
-}
-
-    .landing-section-text > div > h1{
-        font-size: 2.5rem;
-        line-height: 100%;
-        letter-spacing: 0%;
-    }
-
-    .landing-section-text > div > p{
-        font-size: 1.125rem;
-    }
 
     .landing-section-metadata {
         display: flex;
@@ -2103,7 +2054,438 @@
 
 @media screen and (min-width: 768px) and (max-width: 1055px) {
 
-    
+    .header {
+        width: 100%;
+        height: 128px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        gap: 102px;
+    }
+
+
+    .header>img {
+        width: 72px;
+    }
+
+    .header-buttons {
+        display: flex;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        
+        width: 100%;
+        max-width: 1055px;
+        margin: 0 auto;
+        padding: 0;
+        height: 3460px;
+
+        margin: 20px 0px 0px 0px;
+        padding: 0px;
+
+        gap: 40px;
+    }
+
+
+    /* Landing Section with Titel and introtext */
+
+    .landing-section-carousel{
+        width: 730px;
+        height: 460px;
+
+        gap: 24px;
+        padding-top: 0px;
+        padding: 0px;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .landing-section-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+
+        width: 418px;
+        height: 450px;
+        gap: 8px;
+    }
+
+    .landing-section-text > div > h2{
+        font-size: 1.75rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: start;    
+    }
+
+    .landing-section-text > div > h1{
+        font-size: 3rem;
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-text > div > p{
+        font-size: 1.5rem;
+    }
+
+
+    /* Metadata Section */
+
+    .landing-section-metadata {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        position: static;
+
+        width: 100%;
+        height: 55px;
+
+        gap: 16px;
+
+        margin-top: 20px;
+    }
+
+    .landing-section-metadata-upperrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 100%;
+        height: 19px;
+
+        gap: 20px;
+
+    }
+
+    .landing-section-metadata-calendar{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 136px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-calendar > p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-style: regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-metadata-calendar > img{
+        width: 16px;
+    }
+
+
+    .landing-section-metadata-glasses{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 161px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-glasses > p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-style: regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-metadata-glasses > img{
+        width: 20px;
+    }
+
+
+     .landing-section-metadata-lowerrow{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 100%;
+        height: 19px;
+
+        gap: 20px;
+
+    }
+
+    .landing-section-metadata-eye{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 86px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-eye > p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-style: regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-metadata-eye > img{
+        width: 20px;
+    }
+
+
+    .landing-section-metadata-share{
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        width: 93px;
+        gap: 6px;
+    }
+
+    .landing-section-metadata-share > p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-style: regular;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
+    .landing-section-metadata-share > img{
+        width: 16px;
+    }
+
+
+
+    /* Author Section with box */
+
+
+    .authorsection{
+        width: 272px;
+        height: 460px;
+
+        gap: 16px;
+    }
+
+    .img-box{
+        margin-top: 10px;
+
+    }
+
+    .author-img{
+        width: 120px;
+        height: 120px;
+    }
+
+    .author-passage{
+        width: 100%;
+        height: auto;
+    }
+
+    .authorsection-name{
+        font-size: 1.25rem;
+    }
+
+    .authorsection-job-titel{
+        font-size: 1.25rem;
+    }
+
+    .author-text{
+        width: 100%;
+        text-align: center;
+
+        padding-top: 20px;
+    }
+
+    .author-text > p{
+        font-size: 1.125rem;
+    }
+
+
+    /* Main content */
+
+    .main-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        
+        width: 730px;
+        height: 2640px;
+        
+        gap: 32px;
+    }
+
+    .landing-section-introtext{
+        width: 100%;
+        height: 130px;
+    }
+
+    .landing-section-introtext > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+    .main-rain-graphic{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+        height: 490px;
+
+        margin-top: 40px;
+    }
+
+    .main-rain-graphic > h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 2rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+   
+    .main-rain-graphic > img{
+        width: 80%;
+        border-radius: 53px;
+
+        justify-content: center;
+        
+        padding-top: 0px;
+    }
+
+    .main-rain-graphic-descr{
+        width: 100%;
+        height: 193px;
+
+        margin-top: 40px;
+    }
+
+    .main-rain-graphic-descr > p{
+       font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+
+    .main-beach-accomodation-split{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        width: 100%;
+        height: 1360px;
+        gap: 30px;
+
+        margin-top: 20px;
+    }
+
+    .main-beach-accomodation-split-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        
+        width: 100%;
+        height: 680px;
+
+        gap: 16px;
+    }
+
+    .main-beach-accomodation-split-box h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 2rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
+    }
+
+    .main-beach-accomodation-split-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        width: 100%;
+        height: 620px;
+    }
+
+    .main-beach-accomodation-split-content p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.125rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
+
+
+    .main-beach-accomodation-split-content img{
+        width: 80%;
+        border-radius: 53px;
+    }  
+
+     .main-beach-accomodation-descr{
+        width: 100%;
+        height: 220px;
+    }
+
+    .main-beach-accomodation-descr > p{
+        font-family: Palaquin;
+        font-weight: 400;
+        font-style: Regular;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+        color: rgba(84, 55, 13, 1);
+
+        text-align: start;
+    }
 
 
 
@@ -2112,6 +2494,22 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
 
 /* Media Query min Breite 1056px und max Breite 1200px */
 
