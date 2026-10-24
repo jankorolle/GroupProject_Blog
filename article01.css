@@ -9,8 +9,10 @@
   margin: 0 auto;
 
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   padding-top: 80px;
+
+  gap: 27px;
 }
 
 .landing-section-text {
@@ -48,13 +50,33 @@
 
 .landing-section-metadata{
   display: flex;
-  align-items: flex-end;
-  gap: 32px;
+  flex-direction: row;
+  align-items: center;
   position: absolute; bottom: 0;
+  gap: 32px;
+}
+
+.landing-section-metadata-upperrow{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.landing-section-metadata-lowerrow{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  font-family: Palanquin;
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .landing-section-metadata-postdetails{
   display: flex;
+  align-items: center;
   gap: 6px;
   font-family: Palanquin;
   font-weight: 400;
