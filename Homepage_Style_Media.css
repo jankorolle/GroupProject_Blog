@@ -172,6 +172,7 @@
 }
 
 @media (max-width:740px) {
+
     .landing-section {
 
         max-width: 630px;
@@ -403,13 +404,7 @@
 
 
     body {
-        max-width: 375px;
         height: 100%;
-    }
-
-    .hero-image {
-        width: 375px;
-
     }
 
     .main-section {
@@ -433,6 +428,10 @@
     .hero-text p {
         display: none;
         font-size: 28px;
+    }
+
+    .landing-section-layer {
+        animation: heroCover 2.5s ease-in-out 1.3s forwards;
     }
 
     .highlightsDiscription {
@@ -527,10 +526,6 @@
 
 @media (max-width:375px) {
 
-    body {
-        max-width: 350px;
-    }
-
     .hero-image {
         width: 350px;
     }
@@ -554,9 +549,7 @@
     }
 
     .highlightsContent {
-
         max-width: 335px;
-
     }
 
     .sliderLink {

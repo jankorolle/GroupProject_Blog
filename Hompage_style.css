@@ -57,12 +57,16 @@
 }
 
 @keyframes MoveBadge {
-  0% {}
+  0% {
+    visibility: visible;
+  }
 
   100% {
 
     opacity: 1;
     top: 55%;
+    visibility: visible;
+
   }
 }
 
@@ -171,6 +175,8 @@ h3 {
 
 .badge {
   position: absolute;
+  visibility: hidden;
+
   right: 0;
   top: 80%;
 
