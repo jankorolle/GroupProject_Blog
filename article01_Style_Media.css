@@ -83,18 +83,65 @@
         text-align: center;
     }
 
+    .slider-section > div > p {
+        font-size: 1.25rem;
+    }
+
     .slider-section{
-        max-width: 345px;
+        
+        width: 345px;
+        height: 440px;
         padding-top: 40px;
     }
 
     .img-slider{
-        width: 200px;
+        max-width: 343px;
+        height: 400px;
+        overflow: hidden;
     }
 
-    .slider-section > div > p {
-        font-size: 1.25rem;
+    .slider-section input [value="one"]:checked~.img-slider{
+        transform: translateX(50%);
+        display: flex;
+        justify-content: start;
+        align-items: center;
     }
+
+      .slider-section input [value="two"]:checked~.img-slider{
+        transform: translateX(-100%);
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+      .slider-section input [value="three"]:checked~.img-slider{
+        transform: translateX(-200%);
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+
+      .slider-section input [value="four"]:checked~.img-slider{
+        transform: translateX(-300%);
+        display: start;
+        justify-content: center;
+        align-items: center;
+    }
+
+      .slider-section input [value="five"]:checked~.img-slider{
+        transform: translateX(-400%);
+        display: start;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-slider>img{
+        width: 180px;
+        height: 260px;
+        overflow: hidden;
+    }
+
+
 
     .description-box{
         font-size: 1rem;

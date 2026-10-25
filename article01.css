@@ -142,6 +142,10 @@
   text-align: center
 }
 
+.slider-section>input{
+  display: none;
+}
+
 .img-slider{
   padding-top: 64px;
   width: 1300px;
