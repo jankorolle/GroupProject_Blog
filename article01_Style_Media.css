@@ -100,36 +100,41 @@
         overflow: hidden;
     }
 
-    .slider-section input [value="one"]:checked~.img-slider{
-        transform: translateX(50%);
+    .slider_element{ 
         display: flex;
-        justify-content: start;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 300px;
+        margin-left: block;
+
+    }
+
+    .slider-section input[value="one"]:checked~.img-slider{
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
       .slider-section input [value="two"]:checked~.img-slider{
-        transform: translateX(-100%);
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
     }
 
       .slider-section input [value="three"]:checked~.img-slider{
-        transform: translateX(-200%);
         display: flex;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
     }
 
       .slider-section input [value="four"]:checked~.img-slider{
-        transform: translateX(-300%);
         display: start;
         justify-content: center;
         align-items: center;
     }
 
       .slider-section input [value="five"]:checked~.img-slider{
-        transform: translateX(-400%);
         display: start;
         justify-content: center;
         align-items: center;
