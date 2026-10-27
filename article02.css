@@ -1,21 +1,60 @@
-.video-section {
-    display: flex;
-    justify-content: center;
-    margin-top: 88px;
-    margin-bottom: 88px;
+.main{
+    width: 1200px;
+    height: 2706px;
 }
 
-.Main-Text {
+.landing-section-introtext > p{
     font-family: Palanquin;
     font-weight: 400;
-    font-size: 2rem;
+    font-style: Regular;
+    font-size: 1.5rem;
     line-height: 120%;
 }
 
+.video{
+    width: 931px;
+    height: 520px;
+    border-radius: 53px;
+
+    gap: 10px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+}
+
+.main-Text{
+    height: ;
+    gap: 10px;
+}
+
 .Main-Text-Paragraph {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+
     margin-bottom: 25px;
 }
 
 ul {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 120%;
+
     margin-bottom: 25px;
+}
+
+span{
+    font-family: Palanquin;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.5rem;
+    line-height: 120%;
+}
+
+.pro-tipps{
+    margin: 0px;
 }
