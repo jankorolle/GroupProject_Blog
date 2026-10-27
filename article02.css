@@ -126,6 +126,7 @@ span{
     }
 
     .landing-section-text > div > p{
+        font-family: Palanquin;
         font-size: 1.125rem;
     }
 
@@ -350,17 +351,26 @@ span{
         height: 192px;
     }
 
-    .main-Text{
+    .Main-Text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 345px;
     }
 
-    .Main-Text-Paragraph {
-    font-family: Palanquin;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 120%;
+    .main-text-list{
+        margin: 0px;
+    }
 
-    margin-bottom: 25px;
+    .Main-Text-Paragraph {
+     
+        width: 343px;
+
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
     }
 
 
@@ -369,8 +379,6 @@ span{
     font-weight: 400;
     font-size: 1rem;
     line-height: 120%;
-
-    margin-bottom: 25px;
     }
 
 
