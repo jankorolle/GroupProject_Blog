@@ -89,65 +89,64 @@
 
     .slider-section{
         
-        width: 345px;
-        height: 440px;
+        width: 343px;
+        overflow: hidden;
         padding-top: 40px;
+        position: relative;
+
+        
+
     }
+
 
     .img-slider{
         padding: 37px 0px 86px;
         width: 343px;
-        overflow: hidden;
-        position: relative;
-        scroll-snap-type: x mandatory;
+        height: 293px;
+        overflow: hidden; 
+        background-color: black;
     }
 
-    .img-slider>div{
+    .slider-wrapper{
+        width: 500%;
+        height: 100%;
+        position: absolute;
+
         display: flex;
     }
 
-    .img-slider>input{
-        position: absolute;
-        bottom: 40px;
+    .img-slider input{
+        bottom: 0px;
+        display: flex;
+        z-index: 10;
     }
 
     .slider_element{ 
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 200px;
-        height: 300px;
+        width: calc(500% / 5);
+        height: 50%;
         scroll-snap-align: center;
     }
 
     .slider-section input[value="one"]:checked~.img-slider{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       
     }
 
     .slider-section input[value="two"]:checked~.img-slider{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        
     }
 
     .slider-section input [value="three"]:checked~.img-slider{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       
     }
 
     .slider-section input [value="four"]:checked~.img-slider{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       
     }
 
     .slider-section input [value="five"]:checked~.img-slider{
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
 

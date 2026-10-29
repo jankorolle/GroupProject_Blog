@@ -283,3 +283,7 @@
 .nav-bar{
   display: none;
 }
+
+.img-slider>input{
+  display: none;
+}
