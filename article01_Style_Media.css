@@ -103,8 +103,6 @@
 
         margin: 0 auto;
 
-        background-color: black;
-
         display: flex;
         justify-content: center;
         align-items: flex-end;
@@ -112,7 +110,24 @@
     }
 
     .img-slider input{
+        z-index: 100;
+        background-color: rgba(78, 164, 135, 0.3);
+        appearance: none;
+        width: 22px;
+        height: 22px;
+        margin: 80px 8px;
+        border: 0px solid;
+        border-radius: 11px;
+    }
+
+    input[type="radio"]:checked {
         z-index: 10;
+        width: 40px;
+        height: 22px;
+        margin: 80px 4px;
+
+        background-color: rgba(78, 164, 135, 1);
+        border-radius: 14px;
     }
 
     .slider-wrapper{
@@ -346,7 +361,6 @@
     z-index: 1;
     width: 300px;
     height: 440px;
-    border-radius: 16px;
     margin-left: -100px;
 
     object-fit: cover;
