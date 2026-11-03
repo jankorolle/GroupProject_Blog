@@ -24,6 +24,7 @@
     .main{
         width: 345px;
         padding-bottom: 120px;
+        overflow: hidden;
     }
 
     .landing-section-carousel{
@@ -83,72 +84,75 @@
         text-align: center;
     }
 
+    .slider-section{
+        width: 345px;
+        height: 441px;
+        padding: 40px 0px;
+    }
+
     .slider-section > div > p {
         font-size: 1.25rem;
+        padding-bottom: 16px;
     }
-
-    .slider-section{
-        
-        width: 343px;
-        overflow: hidden;
-        padding-top: 40px;
-        position: relative;
-
-        
-
-    }
-
 
     .img-slider{
-        padding: 37px 0px 86px;
-        width: 343px;
-        height: 293px;
-        overflow: hidden; 
-        background-color: black;
-    }
+        position: relative;
 
-    .slider-wrapper{
-        width: 500%;
-        height: 100%;
-        position: absolute;
+        width: 200px;
+        height: 440px;
+
+        margin: 0 auto;
+
+        background-color: black;
 
         display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
     }
 
     .img-slider input{
-        bottom: 0px;
-        display: flex;
         z-index: 10;
     }
 
-    .slider_element{ 
+    .slider-wrapper{
+        z-index: 1;
+        width: 500%;
+        height: 100%;
+
+        position: absolute;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        width: calc(500% / 5);
-        height: 50%;
-        scroll-snap-align: center;
+
+        transition: all 1s ease-in-out;
+
     }
 
-    .slider-section input[value="one"]:checked~.img-slider{
-       
+    .slider_element{
+        width: calc(100% / 5);
+        height: 293px;
+        object-fit: cover;
     }
 
-    .slider-section input[value="two"]:checked~.img-slider{
-        
+
+    .img-slider input[value="one"]:checked~.slider-wrapper{
+       transform: translateX(calc(200% / 5));
     }
 
-    .slider-section input [value="three"]:checked~.img-slider{
-       
+    .img-slider input[value="two"]:checked~.slider-wrapper{
+        transform: translateX(calc(100% / 5));
     }
 
-    .slider-section input [value="four"]:checked~.img-slider{
-       
+    .img-slider input[value="three"]:checked~.slider-wrapper{
+       transform: translateX(calc(0));
     }
 
-    .slider-section input [value="five"]:checked~.img-slider{
+    .img-slider input[value="four"]:checked~.slider-wrapper{
+       transform: translateX(calc(-100% / 5));
     }
 
+    .img-slider input[value="five"]:checked~.slider-wrapper{
+        transform: translateX(calc(-200% / 5));
+    }
 
     .description-box{
         font-size: 1rem;
@@ -335,4 +339,37 @@
         color: rgba(78, 164, 135, 1);
         text-decoration: none;
     }
+}
+
+@media screen and (min-width: 1230px) and (max-width: 1440px) {
+.slider_element {
+    z-index: 1;
+    width: 300px;
+    height: 440px;
+    border-radius: 16px;
+    margin-left: -100px;
+
+    object-fit: cover;
+
+    box-shadow:
+        0px 4px 3px rgba(3, 7, 18, 0.03),
+        0px 14px 11px rgba(3, 7, 18, 0.05),
+        0px 32px 24px rgba(3, 7, 18, 0.08);
+
+    transform: perspective(250px) rotateY(10deg) translateX(-10px);
+    transform-origin: 50% 50%;
+
+    transition: all 250ms ease-in-out;
+    }
+
+    .slider_element:hover {
+    z-index: 2;
+    transform: perspective(200px) rotateY(0deg) translateX(0px);
+    margin-right: 96px;
+    margin-left: 0px;
+    }
+
+    .slider_element:hover~.slider_element{
+    transform: perspective(200px) rotateY(-10deg) translateX(10px);
+}
 }
