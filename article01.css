@@ -2,6 +2,7 @@
   width: 1200px;
   margin: 0 auto;
   padding-bottom: 90px;
+  overflow: hidden;
 }
 
 .landing-section-carousel{
@@ -249,8 +250,4 @@
   font-size: 1.5rem;
   line-height: 120%;
   text-align: center;
-}
-
-.nav-bar{
-  display: none;
 }
