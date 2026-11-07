@@ -2,6 +2,7 @@
   width: 1200px;
   margin: 0 auto;
   padding-bottom: 90px;
+  overflow: hidden;
 }
 
 .landing-section-carousel{
@@ -149,6 +150,11 @@
   justify-content: center;
 }
 
+.slider_element{
+  border-radius: 16px;
+  gap: 50px;
+}
+
 
 .description{
   padding-top: 90px;
@@ -218,7 +224,6 @@
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 120%;
-  background-color: rgba(78, 164, 135, 0.2);
   border-radius: 30px;
   width: 1083px;
   height: 195px;
@@ -245,8 +250,4 @@
   font-size: 1.5rem;
   line-height: 120%;
   text-align: center;
-}
-
-.nav-bar{
-  display: none;
 }
