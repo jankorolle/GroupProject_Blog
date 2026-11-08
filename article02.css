@@ -69,9 +69,9 @@ span{
 
 
 
-/* Media Query max Breite 480px */
+/* Media Query max Breite 479px */
 
-@media screen and (min-width: 375px) and (max-width:480px) {
+@media screen and (min-width: 375px) and (max-width:479px) {
 
      .main{
         display: flex;
@@ -90,6 +90,8 @@ span{
 
         gap: 40px;
     }
+
+
 
     .landing-section-carousel{
         width: 345px;
@@ -136,6 +138,8 @@ span{
 
 
 
+     /* Metadata Section */
+
     .landing-section-metadata {
         display: flex;
         flex-direction: column;
@@ -151,6 +155,14 @@ span{
         margin-top: 20px;
     }
 
+    .landing-section-metadata p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
     .landing-section-metadata-upperrow{
         display: flex;
         flex-direction: row;
@@ -161,7 +173,6 @@ span{
         height: 19px;
 
         gap: 20px;
-
     }
 
     .landing-section-metadata-calendar{
@@ -174,19 +185,9 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-calendar > img{
         width: 16px;
     }
-
 
     .landing-section-metadata-glasses{
         display: flex;
@@ -198,21 +199,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-glasses > img{
         width: 20px;
     }
 
-
-     .landing-section-metadata-lowerrow{
+    .landing-section-metadata-lowerrow{
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -222,7 +213,6 @@ span{
         height: 19px;
 
         gap: 20px;
-
     }
 
     .landing-section-metadata-eye{
@@ -235,19 +225,9 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-eye > img{
         width: 20px;
     }
-
 
     .landing-section-metadata-share{
         display: flex;
@@ -259,24 +239,13 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-share > img{
         width: 16px;
     }
 
 
 
-
     /* Author Section with box */
-
 
     .authorsection{
         width: 345px;
@@ -311,8 +280,8 @@ span{
     }
     
 
-    /* Main content */
 
+    /* Main content */
 
     .main-section{
         display: flex;
@@ -326,16 +295,20 @@ span{
         gap: 32px;
     }
 
+    .main-section h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
 
-    .landing-section-introtext{
-        width: 100%;
-        height: 173px;
+        text-align: center;
     }
 
-    .landing-section-introtext > p{
+    .main-section p{
         font-family: Palaquin;
         font-weight: 400;
-        font-style: Regular;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
@@ -343,7 +316,6 @@ span{
 
         text-align: start;
     }
-
 
     .video{
         width: 345px;
@@ -397,140 +369,13 @@ span{
         line-height: 120%;
     }
 
-    .pro-tipps{
-        width: 343px;
-        height: 260px;
-        padding: 0px 0px 0px 0px;
-        /* margin-bottom: 90px; */
-    }
-
-    .pro-tipps-box {
-        z-index: 1;
-        background-color: rgba(78, 164, 135, 1);
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        width: 200px;
-        height: 66px;
-        border-radius: 10px;
-        position: relative;
-        top: 5px;
-        left: 0px;
-    }
-
-    .pro-tipps-box>p{
-        font-family: Palanquin;
-        font-weight: 700;
-        font-size: 1.75rem;
-        color: rgba(241, 201, 83, 1);
-    }
-
-    .pro-tipps-discription{
-        z-index: 2;
-        font-family: Palanquin;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 120%;
-
-        background-color: rgba(78, 164, 135, 0.2);
-        
-        border-radius: 10px;
-        width: 343px;
-        height: 195px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .pro-tipps-discription > div {
-        display: flex;
-        justify-content: space-around;
-        padding: 26px 16px;
-    }
-
-    .pro-tipps-box{
-        transform: rotate(-13.67deg)
-    }
-
-    .pro-tipps-box > img {
-        transform: rotate(13.67deg);
-    }
-
-
-
-    /* Ab diesem Bereich kommt der Footer */
-
-
-
-    .footer {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    height: 128px;
-
-    color: #ffffff;
-   
-    background-color: rgba(78, 164, 135, 1);
-    padding: 0px;
-    font-family: Palanquin;
-    }
-
-    .footer-navigation-box{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: end;
-        width: 85%;
-
-    }
-
-    .footer-section-left-links {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: start;
-    gap: 8px;
-
-    width: 147px;
-    height: 74px;
-
-    line-height: 120%;
-    }
-
-    .footer-section-left-copyright {
-    display: flex;
-    align-items: center;
-    }
-
-    .footer-section-right {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-    width: 153px;
-    height: 24px;
-    }
-
-   .footer-section-right img{
-        height: 24px
-    }
-
-    .footer-section-right a{
-        height: 24px;
-    }
-    
-
-    
-
 }
 
 
 
-/* Media Query min Breite 481px und max Breite 580px */
+/* Media Query min Breite 480px und max Breite 580px */
 
-@media screen and (min-width:481px) and (max-width:580px) {
+@media screen and (min-width:480px) and (max-width:580px) {
 
 .main{
         display: flex;
@@ -548,61 +393,6 @@ span{
         padding: 0px;
 
         gap: 40px;
-    }
-
-
-    .landing-section-carousel{
-        width: 450px;
-        height: 820px;
-
-        gap: 24px;
-        padding-top: 0px;
-        padding: 0px;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .landing-section-carousel{
-        width: 430px;
-        height: 740px;
-
-        gap: 24px;
-        padding-top: 0px;
-        padding: 0px;
-
-        display: flex;
-        flex-direction: column;
-    }
-
-    .landing-section-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: start;
-
-        width: 100%;
-        height: 320px;
-        gap: 8px;
-    }
-
-    .landing-section-text > div > h2{
-        font-size: 1.25rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-
-        text-align: start;    
-    }
-
-    .landing-section-text > div > h1{
-        font-size: 2.5rem;
-        line-height: 100%;
-        letter-spacing: 0%;
-    }
-
-    .landing-section-text > div > p{
-        font-size: 1.25rem;
     }
 
     .landing-section-carousel{
@@ -648,6 +438,8 @@ span{
 
 
 
+      /* Metadata Section */
+
     .landing-section-metadata {
         display: flex;
         flex-direction: column;
@@ -663,17 +455,12 @@ span{
         margin-top: 20px;
     }
 
-    .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        width: 430px;
-        height: 19px;
-
-        gap: 20px;
-
+    .landing-section-metadata p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
     }
 
     .landing-section-metadata-calendar{
@@ -686,19 +473,9 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-calendar > img{
         width: 16px;
     }
-
 
     .landing-section-metadata-glasses{
         display: flex;
@@ -710,31 +487,8 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-glasses > img{
         width: 20px;
-    }
-
-
-     .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        width: 430px;
-        height: 19px;
-
-        gap: 20px;
-
     }
 
     .landing-section-metadata-eye{
@@ -747,19 +501,9 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-eye > img{
         width: 20px;
     }
-
 
     .landing-section-metadata-share{
         display: flex;
@@ -771,22 +515,13 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-share > img{
         width: 16px;
     }
 
 
-    /* Author Section with box */
 
+    /* Author Section with box */
 
     .authorsection{
         width: 430px;
@@ -797,33 +532,14 @@ span{
         margin-top: 20px;
     }
 
-    .author-img{
-        width: 120px;
-        height: 120px;
-    }
-
-    .author-passage{
-        width: 100%;
-        height: auto;
-    }
-
-
-    .authorsection-name{
-        font-size: 1rem;
-    }
-
-    .authorsection-job-titel{
-        font-size: 1rem;
-    }
-
     .author-text{
         width: 100%;
         text-align: center;
     }
 
 
-    /* Main content */
 
+    /* Main content */
 
     .main-section{
         display: flex;
@@ -837,15 +553,20 @@ span{
         gap: 32px;
     }
 
-    .landing-section-introtext{
-        width: 100%;
-        height: 180px;
+    .main-section h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
     }
 
-    .landing-section-introtext > p{
+    .main-section p{
         font-family: Palaquin;
         font-weight: 400;
-        font-style: Regular;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
@@ -881,7 +602,6 @@ span{
     }
 
     .Main-Text-Paragraph {
-     
         width: 430px;
 
         font-family: Palanquin;
@@ -889,7 +609,6 @@ span{
         font-size: 1rem;
         line-height: 120%;
     }
-
 
     ul {
     font-family: Palanquin;
@@ -898,72 +617,12 @@ span{
     line-height: 120%;
     }
 
-
     span{
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
         font-size: 1rem;
         line-height: 120%;
-    }
-
-    .pro-tipps{
-        width: 430px;
-        height: 260px;
-        padding: 0px 0px 0px 0px;
-        /* margin-bottom: 90px; */
-    }
-
-    .pro-tipps-box {
-        z-index: 1;
-        background-color: rgba(78, 164, 135, 1);
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        width: 200px;
-        height: 66px;
-        border-radius: 10px;
-        position: relative;
-        top: 5px;
-        left: 0px;
-    }
-
-    .pro-tipps-box>p{
-        font-family: Palanquin;
-        font-weight: 700;
-        font-size: 1.75rem;
-        color: rgba(241, 201, 83, 1);
-    }
-
-    .pro-tipps-discription{
-        z-index: 2;
-        font-family: Palanquin;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 120%;
-
-        background-color: rgba(78, 164, 135, 0.2);
-        
-        border-radius: 10px;
-        width: 430px;
-        height: 195px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .pro-tipps-discription > div {
-        display: flex;
-        justify-content: space-around;
-        padding: 26px 16px;
-    }
-
-    .pro-tipps-box{
-        transform: rotate(-13.67deg)
-    }
-
-    .pro-tipps-box > img {
-        transform: rotate(13.67deg);
     }
 
 }
@@ -976,11 +635,6 @@ span{
 @media screen and (min-width: 581px) and (max-width: 740px) {
 
 
-
-    .header-buttons {
-        display: none;
-    }
-
     .main{
         display: flex;
         flex-direction: column;
@@ -991,7 +645,7 @@ span{
         max-width: 767px;
         margin: 0 auto;
         padding: 0;
-        height: 2570px;
+        height: 2670px;
 
         margin: 20px 0px 0px 0px;
         padding: 0px;
@@ -1043,6 +697,9 @@ span{
     }
 
 
+
+    /* Metadata Section */
+
     .landing-section-metadata {
         display: flex;
         flex-direction: column;
@@ -1058,17 +715,12 @@ span{
         margin-top: 20px;
     }
 
-    .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        width: 530px;
-        height: 19px;
-
-        gap: 20px;
-
+    .landing-section-metadata p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
     }
 
     .landing-section-metadata-calendar{
@@ -1081,19 +733,9 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-calendar > img{
         width: 16px;
     }
-
 
     .landing-section-metadata-glasses{
         display: flex;
@@ -1105,31 +747,8 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-glasses > img{
         width: 20px;
-    }
-
-
-     .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        width: 530px;
-        height: 19px;
-
-        gap: 20px;
-
     }
 
     .landing-section-metadata-eye{
@@ -1142,19 +761,9 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-eye > img{
         width: 20px;
     }
-
 
     .landing-section-metadata-share{
         display: flex;
@@ -1166,22 +775,13 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-share > img{
         width: 16px;
     }
 
 
-    /* Author Section with box */
 
+    /* Author Section with box */
 
     .authorsection{
         width: 530px;
@@ -1192,29 +792,11 @@ span{
         margin-top: 20px;
     }
 
-    .author-img{
-        width: 120px;
-        height: 120px;
-    }
-
-    .author-passage{
-        width: 100%;
-        height: auto;
-    }
-
-
-    .authorsection-name{
-        font-size: 1rem;
-    }
-
-    .authorsection-job-titel{
-        font-size: 1rem;
-    }
-
     .author-text{
         width: 100%;
         text-align: center;
     }
+
 
 
     /* Main content */
@@ -1231,23 +813,27 @@ span{
         gap: 32px;
     }
 
-    .landing-section-introtext{
-        width: 100%;
-        height: 120px;
+    .main-section h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 1.25rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
     }
 
-    .landing-section-introtext > p{
+    .main-section p{
         font-family: Palaquin;
         font-weight: 400;
-        font-style: Regular;
-        font-size: 1rem;
+        font-size: 1.125rem;
         line-height: 120%;
         letter-spacing: 0%;
         color: rgba(84, 55, 13, 1);
 
         text-align: start;
     }
-
 
     .video{
         width: 530px;
@@ -1280,14 +866,14 @@ span{
 
         font-family: Palanquin;
         font-weight: 400;
-        font-size: 1rem;
+        font-size: 1.125rem;
         line-height: 120%;
     }
 
     ul {
     font-family: Palanquin;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.125rem;
     line-height: 120%;
     }
 
@@ -1295,68 +881,8 @@ span{
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
-        font-size: 1rem;
+        font-size: 1.125rem;
         line-height: 120%;
-    }
-
-
-
-    .pro-tipps{
-        width: 530px;
-        height: 260px;
-        padding: 0px 0px 0px 0px;
-    }
-
-    .pro-tipps-box {
-        z-index: 1;
-        background-color: rgba(78, 164, 135, 1);
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-        text-align: center;
-        width: 200px;
-        height: 66px;
-        border-radius: 10px;
-        position: relative;
-        top: 5px;
-        left: 0px;
-    }
-
-    .pro-tipps-box>p{
-        font-family: Palanquin;
-        font-weight: 700;
-        font-size: 1.75rem;
-        color: rgba(241, 201, 83, 1);
-    }
-
-    .pro-tipps-discription{
-        z-index: 2;
-        font-family: Palanquin;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 120%;
-
-        background-color: rgba(78, 164, 135, 0.2);
-        
-        border-radius: 10px;
-        width: 530px;
-        height: 195px;
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .pro-tipps-discription > div {
-        display: flex;
-        justify-content: space-around;
-        padding: 26px 16px;
-    }
-
-    .pro-tipps-box{
-        transform: rotate(-13.67deg)
-    }
-
-    .pro-tipps-box > img {
-        transform: rotate(13.67deg);
     }
 
 }
@@ -1378,13 +904,7 @@ span{
         gap: 102px;
     }
 
-    .header>img {
-        width: 72px;
-    }
-
-    .header-buttons {
-        display: flex;
-    }
+    
 
     .main{
         display: flex;
@@ -1467,15 +987,15 @@ span{
         margin-top: 20px;
     }
 
+     .landing-section-metadata p{
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+    }
+
     .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        width: 100%;
-        height: 19px;
-
         gap: 20px;
 
     }
@@ -1488,15 +1008,6 @@ span{
 
         width: 136px;
         gap: 6px;
-    }
-
-    .landing-section-metadata-calendar > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
     }
 
     .landing-section-metadata-calendar > img{
@@ -1514,29 +1025,12 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-glasses > img{
         width: 20px;
     }
 
 
      .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
-
-        width: 100%;
-        height: 19px;
-
         gap: 20px;
 
     }
@@ -1549,15 +1043,6 @@ span{
 
         width: 86px;
         gap: 6px;
-    }
-
-    .landing-section-metadata-eye > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
     }
 
     .landing-section-metadata-eye > img{
@@ -1575,22 +1060,13 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > p{
-        font-family: Palanquin;
-        font-weight: 400;
-        font-style: regular;
-        font-size: 1rem;
-        line-height: 120%;
-        letter-spacing: 0%;
-    }
-
     .landing-section-metadata-share > img{
         width: 16px;
     }
 
 
-    /* Author Section with box */
 
+    /* Author Section with box */
 
     .authorsection{
         width: 272px;
@@ -1604,15 +1080,15 @@ span{
 
     }
 
-    .author-img{
+    /* .author-img{
         width: 120px;
         height: 120px;
-    }
+    } */
 
-    .author-passage{
+    /* .author-passage{
         width: 100%;
         height: auto;
-    }
+    } */
 
     .authorsection-name{
         font-size: 1.25rem;
@@ -1634,6 +1110,7 @@ span{
     }
 
 
+
     /* Main content */
 
     .main-section{
@@ -1648,15 +1125,20 @@ span{
         gap: 32px;
     }
 
-    .landing-section-introtext{
-        width: 100%;
-        height: 130px;
+    .main-section h2{
+        font-family: Arima;
+        font-weight: 600;
+        font-style: SemiBold;
+        font-size: 2rem;
+        line-height: 120%;
+        letter-spacing: 0%;
+
+        text-align: center;
     }
 
-    .landing-section-introtext > p{
+    .main-section p{
         font-family: Palaquin;
         font-weight: 400;
-        font-style: Regular;
         font-size: 1.25rem;
         line-height: 120%;
         letter-spacing: 0%;
@@ -1723,22 +1205,6 @@ span{
 
 @media screen and (min-width: 951px) and (max-width:1056px) {
 
-    .header {
-        width: 100%;
-        height: 128px;
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-    }
-
-    .header > a > img{
-        width: 72px;
-    }
-
-    .header-buttons {
-        display: flex;
-    }
-
      .main{
         display: flex;
         flex-direction: column;
@@ -1751,12 +1217,8 @@ span{
         padding: 0;
         height: 2600px;
 
-        margin: 10px 0px 0px 0px;
-        padding: 0px;
-
         gap: 40px;
     }
-
 
     .landing-section-carousel{
         display: flex;
@@ -1764,7 +1226,7 @@ span{
         justify-content: space-between;
 
         width: 920px;
-        height: 570px;
+        height: 500px;
 
         gap: 48px;
     }
@@ -1778,17 +1240,17 @@ span{
     }
 
     .landing-section-text > div > h2{
-        font-size: 2.5rem;
+        font-size: 1.75rem;
         line-height: 120%;
         letter-spacing: 0%;      
     }
 
     .landing-section-text > div > h1{
-        font-size: 4rem;
+        font-size: 3rem;
         line-height: 100%;
         letter-spacing: 0%;
 
-         /* padding-top: 10px; */
+         padding-top: 10px;
     }
 
     .landing-section-text > div > p{
@@ -1798,33 +1260,27 @@ span{
     }
 
 
+
+    /* Metadata Section */
+
     .landing-section-metadata{
         display: flex;
         flex-direction: row;
         align-items: center;
 
         height: 19px;
-        width: 572px;
+        width: 100%;
 
         gap: 32px;
     }
 
-    .landing-section-metadata ~ p{
+    .landing-section-metadata p{
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
-    }
-
-    .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-calendar{
@@ -1847,15 +1303,6 @@ span{
 
     .landing-section-metadata-glasses > img{
         width: 20px;
-    }
-    
-    .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-eye{
@@ -1881,10 +1328,11 @@ span{
     }
 
 
+    /* Author Section with box */
 
     .authorsection{
-        width: 272px;
-        height: 490px;
+        width: 472px;
+        height: 420px;
 
         gap: 16px;
     }
@@ -2043,6 +1491,9 @@ span{
     } 
 
 
+
+    /* Landing Section with Titel and introtext */
+    
     .landing-section-carousel{
         display: flex;
         flex-direction: row;
@@ -2084,6 +1535,8 @@ span{
 
 
 
+    /* Metadata Section */
+
     .landing-section-metadata{
         display: flex;
         flex-direction: row;
@@ -2095,22 +1548,13 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata ~ p{
+    .landing-section-metadata p{
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
-    }
-
-    .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-calendar{
@@ -2133,15 +1577,6 @@ span{
 
     .landing-section-metadata-glasses > img{
         width: 20px;
-    }
-    
-    .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-eye{
@@ -2168,7 +1603,9 @@ span{
 
 
 
-     .authorsection{
+    /* Author Section with box */
+
+    .authorsection{
         width: 272px;
         height: 420px;
 
@@ -2205,8 +1642,8 @@ span{
     }
 
 
-    /* Main content */
 
+    /* Main content */
 
     .main-section{
         display: flex;
@@ -2332,6 +1769,10 @@ span{
         gap: 88px;
     }
 
+
+
+    /* Landing Section with Titel and introtext */
+
     .landing-section-carousel{
         display: flex;
         flex-direction: row;
@@ -2342,9 +1783,7 @@ span{
 
         padding-top: 80px;
 
-        gap: 48px;
-
-        
+        gap: 48px;  
     }
 
     .landing-section-text{
@@ -2359,8 +1798,6 @@ span{
         font-size: 2.5rem;
         line-height: 120%;
         letter-spacing: 0%;
-
-       
     }
 
     .landing-section-text > div > h1{
@@ -2368,16 +1805,18 @@ span{
         line-height: 100%;
         letter-spacing: 0%;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
     .landing-section-text > div > p{
         font-size: 1.75rem;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
 
+
+    /* Metadata Section */
 
     .landing-section-metadata{
         display: flex;
@@ -2390,22 +1829,13 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata ~ p{
+    .landing-section-metadata p{
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
-    }
-
-    .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-calendar{
@@ -2428,15 +1858,6 @@ span{
 
     .landing-section-metadata-glasses > img{
         width: 20px;
-    }
-    
-    .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-eye{
@@ -2462,6 +1883,8 @@ span{
     }
 
 
+
+    /* Author Section with box */
 
     .authorsection{
         width: 272px;
@@ -2500,8 +1923,8 @@ span{
     }
 
 
-    /* Main content */
 
+    /* Main content */
 
     .main-section{
         display: flex;
@@ -2603,8 +2026,6 @@ span{
 
     .header > a > img{
         width: 72px;
-
-        /* margin-left: 146px; */
     }
 
     .header-buttons {
@@ -2626,6 +2047,10 @@ span{
         margin-bottom: 60px;
     }
 
+
+
+    /* Landing Section with Titel and introtext */
+
     .landing-section-carousel{
         display: flex;
         flex-direction: row;
@@ -2637,8 +2062,6 @@ span{
         padding-top: 80px;
 
         gap: 48px;
-
-        
     }
 
 
@@ -2654,8 +2077,6 @@ span{
         font-size: 2.5rem;
         line-height: 120%;
         letter-spacing: 0%;
-
-       
     }
 
     .landing-section-text > div > h1{
@@ -2663,15 +2084,18 @@ span{
         line-height: 100%;
         letter-spacing: 0%;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
     .landing-section-text > div > p{
         font-size: 1.75rem;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
+
+
+    /* Metadata Section */
 
     .landing-section-metadata{
         display: flex;
@@ -2684,22 +2108,13 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata ~ p{
+    .landing-section-metadata p{
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
-    }
-
-    .landing-section-metadata-upperrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-calendar{
@@ -2722,15 +2137,6 @@ span{
 
     .landing-section-metadata-glasses > img{
         width: 20px;
-    }
-    
-    .landing-section-metadata-lowerrow{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-
-        width: 100%;
-        gap: 30px;
     }
   
     .landing-section-metadata-eye{
@@ -2756,6 +2162,8 @@ span{
     }
 
 
+
+    /* Author Section with box */
 
     .authorsection{
         width: 272px;
@@ -2794,8 +2202,8 @@ span{
     }
 
 
+    
     /* Main content */
-
 
     .main-section{
         display: flex;
