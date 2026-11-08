@@ -64,6 +64,9 @@
         font-size: 1.125rem;
     }
 
+
+
+     /* Metadata Section */
    
     .landing-section-metadata {
         display: flex;
@@ -80,7 +83,7 @@
         margin-top: 20px;
     }
 
-     .landing-section-metadata p{
+    .landing-section-metadata p{
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
@@ -409,7 +412,10 @@
         font-size: 1.125rem;
     }
 
-
+    
+    
+    /* Metadata Section */
+    
     .landing-section-metadata {
         display: flex;
         flex-direction: column;
@@ -1121,9 +1127,6 @@
 
     }
 
-
-    /* Author Section with box */
-
     .authorsection-name{
         font-size: 1.25rem;
     }
@@ -1645,7 +1648,6 @@
 
 
     .footer {
-    
     display: flex;
     align-items: center;
 

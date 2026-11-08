@@ -982,7 +982,7 @@ body {
   }
 
   .pro-tipps{
-        width: 530px;
+        width: 480px;
         height: 260px;
         padding: 0px 0px 0px 0px;
     }
@@ -999,7 +999,7 @@ body {
         border-radius: 10px;
         position: relative;
         top: 5px;
-        left: 0px;
+        left: -32px;
     }
 
     .pro-tipps-box>p{
@@ -1019,7 +1019,7 @@ body {
         background-color: rgba(78, 164, 135, 0.2);
         
         border-radius: 10px;
-        width: 530px;
+        width: 480px;
         height: 195px;
         display: flex;
         justify-content: flex-end;
@@ -1326,7 +1326,7 @@ body {
         border-radius: 10px;
         position: relative;
         top: 5px;
-        left: 0px;
+        left: -32px;
     }
 
     .pro-tipps-box>p{
@@ -1367,7 +1367,7 @@ body {
     }
 
     .share{
-        width: 465px;
+        width: 345px;
         height: 140px;
 
         gap: 48px;
@@ -1380,8 +1380,13 @@ body {
         position: relative;
     }
 
+
     .share-box-text{
         width: 100%;
+    }
+
+    .share-box-text > p{
+        text-align: center;
     }
 
   .footer {
@@ -2156,26 +2161,26 @@ body {
     min-width: 345px;
   }
 
-  .header {
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 5px 16px 5px 16px;
-    gap: 10px;
-  }
+    .header {
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 16px 5px 16px;
+        gap: 10px;
+    }
 
-  .header img {
-    width: 56px;
-    height: 56px;
-  }
+    .header img {
+        width: 56px;
+        height: 56px;
+    }
 
-  .header-buttons {
-    display: none;
-  }
+    .header-buttons {
+        display: none;
+    }
 
 
-  .pro-tipps{
+    .pro-tipps{
         width: 343px;
         height: 260px;
         padding: 0px 0px 0px 0px;
