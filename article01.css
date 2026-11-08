@@ -1,5 +1,5 @@
 .main{
-  width: 1200px;
+  width: 1232px;
   margin: 0 auto;
   padding-bottom: 90px;
   overflow: hidden;
@@ -53,7 +53,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  position: absolute; bottom: 0;
+  position: absolute; 
+  bottom: 0;
   gap: 32px;
 }
 
@@ -152,11 +153,11 @@
 
 .slider_element{
   border-radius: 16px;
-  gap: 50px;
 }
 
 
 .description{
+  width: 1200px;
   padding-top: 90px;
 }
 
@@ -193,7 +194,6 @@
   width: 1130px;
   height: 260px;
   padding: 0px 0px 90px 82.5px;
-  margin-bottom: 90px;
 }
 
 .pro-tipps-box {
@@ -243,6 +243,18 @@
 .pro-tipps-box > img {
   transform: rotate(13.67deg);
 }
+
+.main-beach-accomodation-descr > p{
+  font-family: Palaquin;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 1.5rem;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: rgba(84, 55, 13, 1);
+
+  text-align: start;
+  }
 
 .share-button > p {
   font-family: arima;
