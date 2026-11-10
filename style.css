@@ -856,17 +856,21 @@ body {
     /* Share Button mit Position und Animation */
 
     .share{
-        width: 450px;
+        width: 463px;
         height: 140px;
 
         gap: 48px;
     }
 
     .share-box{
-        width: 100%;
+        width: 463px;
         height: 140px;
         
         position: relative;
+    }
+
+    .share-box-text{
+        width: 100%;
     }
 
   .footer {
