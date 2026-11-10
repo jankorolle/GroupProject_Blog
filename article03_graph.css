@@ -241,7 +241,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
         line-height: 120%;
@@ -541,7 +541,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 120%;
@@ -663,7 +663,7 @@
 
     .landing-section-carousel{
         width: 530px;
-        height: 740px;
+        height: 680px;
 
         gap: 24px;
         padding-top: 0px;
@@ -815,7 +815,7 @@
         align-items: start;
         
         width: 530px;
-        height: 2250px;
+        height: 2320px;
         
         gap: 32px;
     }
@@ -832,7 +832,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 120%;
@@ -1173,7 +1173,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.25rem;
         line-height: 120%;
@@ -1544,7 +1544,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.25rem;
         line-height: 120%;
@@ -1648,20 +1648,20 @@
 
 
     .footer {
-    display: flex;
-    align-items: center;
+        display: flex;
+        align-items: center;
 
-    width: 100%;
-    height: 152px;
-    
-    background-color: rgba(78, 164, 135, 1);
-    color: #ffffff;
+        width: 100%;
+        height: 152px;
         
-    padding: 60px 120px 60px 120px;
+        background-color: rgba(78, 164, 135, 1);
+        color: #ffffff;
+            
+        padding: 60px 120px 60px 120px;
 
-    gap: 10px;
-   
-    font-family: Palanquin;
+        gap: 10px;
+    
+        font-family: Palanquin;
     }
 
     .footer-navigation-box{
@@ -1908,7 +1908,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 120%;
@@ -2285,7 +2285,7 @@
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 120%;

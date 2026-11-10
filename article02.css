@@ -6,7 +6,7 @@
 .landing-section-introtext > p{
     font-family: Palanquin;
     font-weight: 400;
-    font-style: Regular;
+    font-style: normal;
     font-size: 1.5rem;
     line-height: 120%;
 }
@@ -35,6 +35,7 @@
 .Main-Text-Paragraph {
     font-family: Palanquin;
     font-weight: 400;
+    font-style: normal;
     font-size: 1.5rem;
     line-height: 120%;
 
@@ -49,6 +50,7 @@
 ul {
     font-family: Palanquin;
     font-weight: 400;
+    font-style: normal;
     font-size: 1.5rem;
     line-height: 120%;
 
@@ -133,6 +135,7 @@ span{
 
     .landing-section-text > div > p{
         font-family: Palanquin;
+        font-style: normal;
         font-size: 1.125rem;
     }
 
@@ -158,6 +161,7 @@ span{
     .landing-section-metadata p{
         font-family: Palanquin;
         font-weight: 400;
+        font-style: normal;
         font-size: 1rem;
         line-height: 120%;
         letter-spacing: 0%;
@@ -307,7 +311,7 @@ span{
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
         line-height: 120%;
@@ -565,7 +569,7 @@ span{
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
         line-height: 120%;
@@ -825,7 +829,7 @@ span{
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.125rem;
         line-height: 120%;
@@ -1137,7 +1141,7 @@ span{
     }
 
     .main-section p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-size: 1.25rem;
         line-height: 120%;
@@ -1387,7 +1391,7 @@ span{
     }
 
     .landing-section-introtext > p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1.25rem;
@@ -1662,7 +1666,7 @@ span{
     }
 
     .landing-section-introtext > p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1.5rem;
@@ -1943,7 +1947,7 @@ span{
     }
 
     .landing-section-introtext > p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1.5rem;
@@ -2222,7 +2226,7 @@ span{
     }
 
     .landing-section-introtext > p{
-        font-family: Palaquin;
+        font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
         font-size: 1.5rem;
