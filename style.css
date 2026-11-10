@@ -951,7 +951,7 @@ body {
         align-items: center;
 
         width: 70%;
-        height: 40px;
+        height: 35px;
     }
 }
 
@@ -1118,7 +1118,7 @@ body {
         align-items: center;
 
         width: 70%;
-        height: 40px;
+        height: 35px;
     }
 }
 
@@ -1464,7 +1464,7 @@ body {
         align-items: center;
 
         width: 70%;
-        height: 40px;
+        height: 35px;
     }
 
 }
@@ -1788,7 +1788,7 @@ body {
         align-items: center;
 
         width: 70%;
-        height: 40px;
+        height: 35px;
     }
 
   .nav-bar {
@@ -2138,7 +2138,7 @@ body {
         align-items: center;
 
         width: 70%;
-        height: 40px;
+        height: 35px;
     }
 
 
@@ -2471,8 +2471,7 @@ body {
   }
 
   .nav-bar>div>img {
-    width: 40px;
-    height: 40px;
+    height: 35px;
   }
 
 
