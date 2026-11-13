@@ -239,6 +239,15 @@ h3 {
   width: 1440px;
 }
 
+.main-section > h2 {
+  height: 48px;
+  gap: 8px;
+}
+
+.main-section > h2 > img {
+  height: 48px;
+}
+
 .highlightsDiscription {
   width: 80%;
   max-width: 979px;
@@ -413,7 +422,15 @@ input[type="radio"]:checked {
   align-items: center;
   width: 100%;
   max-width: 1440px;
+}
 
+.FAQ_section > h2 {
+  height: 48px;
+  gap: 8px;
+}
+
+.FAQ_section > h2 > img {
+  height: 48px;
 }
 
 .accordion {
@@ -479,7 +496,15 @@ vaadin-accordion-panel[opened] {
   width: 100%;
   max-width: 1440px;
   margin-bottom: 80px;
+}
 
+.shareForm > h2 {
+  height: 48px;
+  gap: 8px;
+}
+
+.shareForm > h2 > img {
+  height: 48px;
 }
 
 .share-text {
