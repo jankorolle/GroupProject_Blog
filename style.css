@@ -55,10 +55,6 @@ body {
 .header a:hover {
   color: #ffffff;
   cursor: pointer;
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
-  text-decoration-color: #F1C953;
-
 }
 
 .header a:active {
