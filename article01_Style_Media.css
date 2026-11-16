@@ -88,7 +88,6 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
-
     }
 
     .img-slider input{
@@ -128,6 +127,7 @@
         width: calc(100% / 5);
         height: 100%;
         object-fit: cover;
+        transform: perspective(250px) rotateY(-10deg) translateX(-10px);
     }
 
 
