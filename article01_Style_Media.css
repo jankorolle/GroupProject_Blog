@@ -127,7 +127,7 @@
         width: calc(100% / 5);
         height: 100%;
         object-fit: cover;
-        transform: perspective(250px) rotateY(-10deg) translateX(-10px);
+        transform: perspective(250px) rotateY(-10deg) translateX(10px);
     }
 
 
@@ -135,21 +135,67 @@
        transform: translateX(calc(200% / 5));
     }
 
+    .img-slider input[value="one"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="two"]:checked~.slider-wrapper{
         transform: translateX(calc(100% / 5));
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .img-slider input[value="three"]:checked~.slider-wrapper{
        transform: translateX(calc(0));
     }
 
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="four"]:checked~.slider-wrapper{
        transform: translateX(calc(-100% / 5));
+    }
+
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .img-slider input[value="five"]:checked~.slider-wrapper{
         transform: translateX(calc(-200% / 5));
     }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:last-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
 
     .description{
         width: 345px;
@@ -724,27 +770,72 @@
         width: calc(100% / 5);
         height: 100%;
         object-fit: cover;
+        transform: perspective(250px) rotateY(-10deg) translateX(10px);
     }
-
 
     .img-slider input[value="one"]:checked~.slider-wrapper{
        transform: translateX(calc(200% / 5));
+    }
+
+    .img-slider input[value="one"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: none;
+        transition: all 1s ease-in-out;
     }
 
     .img-slider input[value="two"]:checked~.slider-wrapper{
         transform: translateX(calc(100% / 5));
     }
 
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="three"]:checked~.slider-wrapper{
        transform: translateX(calc(0));
+    }
+
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .img-slider input[value="four"]:checked~.slider-wrapper{
        transform: translateX(calc(-100% / 5));
     }
 
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="five"]:checked~.slider-wrapper{
         transform: translateX(calc(-200% / 5));
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:last-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .description{
@@ -1112,13 +1203,14 @@
         display: flex;
 
         transition: all 1s ease-in-out;
-
     }
+
 
     .slider_element{
         width: calc(100% / 5);
         height: 100%;
         object-fit: cover;
+        transform: perspective(250px) rotateY(-10deg) translateX(10px);
     }
 
 
@@ -1126,20 +1218,65 @@
        transform: translateX(calc(200% / 5));
     }
 
+    .img-slider input[value="one"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="two"]:checked~.slider-wrapper{
         transform: translateX(calc(100% / 5));
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .img-slider input[value="three"]:checked~.slider-wrapper{
        transform: translateX(calc(0));
     }
 
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="four"]:checked~.slider-wrapper{
        transform: translateX(calc(-100% / 5));
     }
 
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="five"]:checked~.slider-wrapper{
         transform: translateX(calc(-200% / 5));
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:last-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .description{
@@ -1670,13 +1807,13 @@
         display: flex;
 
         transition: all 1s ease-in-out;
-
     }
 
     .slider_element{
         width: calc(100% / 5);
         height: 100%;
         object-fit: cover;
+        transform: perspective(250px) rotateY(-10deg) translateX(10px);
     }
 
 
@@ -1684,20 +1821,65 @@
        transform: translateX(calc(200% / 5));
     }
 
+    .img-slider input[value="one"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="two"]:checked~.slider-wrapper{
         transform: translateX(calc(100% / 5));
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="two"]:checked~.slider-wrapper .slider_element:first-child{
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .img-slider input[value="three"]:checked~.slider-wrapper{
        transform: translateX(calc(0));
     }
 
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="three"]:checked~.slider-wrapper .slider_element:nth-child(2){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="four"]:checked~.slider-wrapper{
        transform: translateX(calc(-100% / 5));
     }
 
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="four"]:checked~.slider-wrapper .slider_element:nth-child(3){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
+    }
+
     .img-slider input[value="five"]:checked~.slider-wrapper{
         transform: translateX(calc(-200% / 5));
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:last-child{
+        transform: none;
+        transition: all 1s ease-in-out;
+    }
+
+    .img-slider input[value="five"]:checked~.slider-wrapper .slider_element:nth-child(4){
+        transform: perspective(250px) rotateY(10deg) translateX(-10px);
+        transition: all 1s ease-in-out;
     }
 
     .description{
