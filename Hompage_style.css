@@ -37,12 +37,13 @@
 
 @keyframes heroCover {
   from {
-    width: 100%;
+    flex-basis: 100%;
   }
 
   to {
-    width: 35%;
-    border-radius: 0 0 45% 0 / 0 0 35% 0;
+    flex-basis: 15%;
+    width: 15%;
+
   }
 }
 
@@ -189,7 +190,6 @@ h3 {
   max-width: 1440px;
   height: 515px;
   overflow: hidden;
-
 }
 
 .hero-image {
@@ -199,47 +199,40 @@ h3 {
   z-index: 2;
 }
 
-
-@keyframes s_graphic {
-  0% {
-    transform: translateX(0px);
-  }
-
-  50% {
-    transform: translateX(-250px);
-  }
-
-  50% {
-    transform: translateX(-250px);
-  }
-
-  100% {
-    transform: translateX(-1250px);
-  }
-}
-
-.s-curve-section {
-  width: 1440px;
-}
-
-
-
 .s-curve-images {
   display: flex;
   flex-direction: row;
-  justify-content: start;
   align-items: center;
-  width: 2200px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
   height: 515px;
 
-  transition-delay: 1s;
-  animation: s_graphic 3s ease-in-out 3.3s forwards;
+  overflow: visible;
+}
+
+.s-curve-images-cover {
+  display: block;
+  flex: 0 0 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+  animation: heroCover 2.5s ease-in-out 3.3s forwards;
 }
 
 .s-curve-images-graphic {
-  zoom: 172%;
-  position: relative;
-  left: -40px;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+  transform-origin: top left;
+  flex-shrink: 0;
+
+  height: 100%;
+  width: auto;
 }
 
 .landing-section-layer {
@@ -249,8 +242,7 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: 3;
-  animation: heroCover 2.5s ease-in-out 3.3s forwards;
-
+  overflow: visible;
 }
 
 .hero-text {
@@ -295,7 +287,7 @@ h3 {
 
   right: 0;
   top: 80%;
-  left: 68%;
+  left: 29%;
   width: 125px;
   height: 125px;
 

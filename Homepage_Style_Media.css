@@ -76,6 +76,19 @@
 }
 
 @media (max-width:1020px) {
+    @keyframes heroCover {
+        from {
+            flex-basis: 100%;
+        }
+
+        to {
+            flex-basis: 10%;
+            width: 10%;
+
+        }
+    }
+
+
     .landing-section {
 
         max-width: 800px;
@@ -131,6 +144,19 @@
 }
 
 @media (max-width:830px) {
+    @keyframes heroCover {
+        from {
+            flex-basis: 100%;
+        }
+
+        to {
+            flex-basis: 6%;
+            width: 6%;
+
+        }
+    }
+
+
     .landing-section {
 
         max-width: 720px;
@@ -172,6 +198,17 @@
 }
 
 @media (max-width:740px) {
+    @keyframes heroCover {
+        from {
+            flex-basis: 100%;
+        }
+
+        to {
+            flex-basis: 4%;
+            width: 4%;
+
+        }
+    }
 
     .landing-section {
 
@@ -223,6 +260,60 @@
 }
 
 @media (max-width:650px) {
+    @keyframes heroCover {
+        from {
+            flex-basis: 100%;
+        }
+
+        to {
+            flex-basis: 0%;
+            width: 0%;
+
+        }
+    }
+
+    @keyframes heroTextLeft {
+
+        0% {
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        100% {
+            left: 8%;
+            transform: translate(0, -110px);
+        }
+    }
+
+    @keyframes shrink-and-move {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(0.7);
+        }
+    }
+
+    @keyframes MoveBadge {
+        0% {
+            visibility: visible;
+
+        }
+
+        100% {
+
+            opacity: 1;
+            top: 30%;
+            visibility: visible;
+
+        }
+    }
+
+    .s-curve-images-graphic {
+        animation: shrink-and-move 1.0s ease-in-out 5.8s forwards;
+    }
+
     .hero-text h1 {
         font-size: 30px;
 
@@ -260,6 +351,9 @@
 }
 
 @media (max-width:560px) {
+
+
+
     .hero-text h1 {
         font-size: 25px;
     }
@@ -328,6 +422,33 @@
 }
 
 @media (max-width:480px) {
+    @keyframes shrink-and-move {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(0.5);
+        }
+    }
+
+    @keyframes MoveBadge {
+        0% {
+            visibility: visible;
+            left: 20%;
+
+        }
+
+        100% {
+
+            opacity: 1;
+            top: 30%;
+            left: 20%;
+            visibility: visible;
+
+        }
+    }
+
     .hero-text h1 {
         font-size: 20px;
     }
@@ -480,16 +601,6 @@
         width: 335px;
     }
 
-    .accordion {
-        margin-bottom: 15px;
-        border-radius: 12px;
-
-    }
-
-    .panel {
-        margin-bottom: 12px;
-    }
-
     .OverallBox {
         display: flex;
         flex-direction: column;
@@ -525,6 +636,15 @@
 }
 
 @media (max-width:375px) {
+    @keyframes shrink-and-move {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(0.4);
+        }
+    }
 
     .hero-image {
         width: 375px;
@@ -550,6 +670,10 @@
 
     .highlightsContent {
         max-width: 335px;
+    }
+
+    .badge {
+        animation: MoveBadge 0.8s ease-out 8.5s forwards;
     }
 
     .sliderLink {
