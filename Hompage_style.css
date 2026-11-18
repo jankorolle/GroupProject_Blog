@@ -59,6 +59,7 @@
 @keyframes MoveBadge {
   0% {
     visibility: visible;
+
   }
 
   100% {
@@ -183,9 +184,11 @@ h3 {
 
 
 .landing-section {
+  position: relative;
   width: 100%;
   max-width: 1440px;
   height: 515px;
+  overflow: hidden;
 
 }
 
@@ -196,19 +199,58 @@ h3 {
   z-index: 2;
 }
 
+
+@keyframes s_graphic {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(-250px);
+  }
+
+  50% {
+    transform: translateX(-250px);
+  }
+
+  100% {
+    transform: translateX(-1250px);
+  }
+}
+
+.s-curve-section {
+  width: 1440px;
+}
+
+
+
+.s-curve-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 2200px;
+  height: 515px;
+
+  transition-delay: 1s;
+  animation: s_graphic 3s ease-in-out 3.3s forwards;
+}
+
+.s-curve-images-graphic {
+  zoom: 172%;
+  position: relative;
+  left: -40px;
+}
+
 .landing-section-layer {
   position: absolute;
   top: 0;
   left: 0;
-
   width: 100%;
   height: 100%;
-
-  background-color: #F7D052;
-
   z-index: 3;
-
   animation: heroCover 2.5s ease-in-out 3.3s forwards;
+
 }
 
 .hero-text {
@@ -253,7 +295,7 @@ h3 {
 
   right: 0;
   top: 80%;
-
+  left: 68%;
   width: 125px;
   height: 125px;
 
