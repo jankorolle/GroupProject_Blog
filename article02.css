@@ -1,9 +1,9 @@
-.main{
+.main {
     width: 1200px;
     height: 2706px;
 }
 
-.landing-section-introtext > p{
+.landing-section-introtext>p {
     font-family: Palanquin;
     font-weight: 400;
     font-style: normal;
@@ -11,7 +11,7 @@
     line-height: 120%;
 }
 
-.video{
+.video {
     width: 931px;
     height: 520px;
     border-radius: 53px;
@@ -22,13 +22,13 @@
 }
 
 
-.video-section {
-    display: flex;
-    justify-content: center;
+.video-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.main-Text{
-    height: ;
+.main-Text {
     gap: 10px;
 }
 
@@ -42,7 +42,7 @@
     margin-bottom: 25px;
 }
 
-.main-text-list{
+.main-text-list {
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -57,7 +57,7 @@ ul {
     margin-bottom: 25px;
 }
 
-span{
+span {
     font-family: Palanquin;
     font-weight: 700;
     font-style: bold;
@@ -65,7 +65,7 @@ span{
     line-height: 120%;
 }
 
-.pro-tipps{
+.pro-tipps {
     margin: 0px;
 }
 
@@ -73,14 +73,14 @@ span{
 
 /* Media Query max Breite 479px */
 
-@media screen and (min-width: 375px) and (max-width:479px) {
+@media screen and (max-width:479px) {
 
-     .main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        
+
         width: 100%;
         max-width: 579px;
         margin: 0 auto;
@@ -95,7 +95,7 @@ span{
 
 
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         width: 345px;
         height: 820px;
 
@@ -108,7 +108,7 @@ span{
     }
 
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -119,21 +119,21 @@ span{
         gap: 8px;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 1.25rem;
         line-height: 120%;
         letter-spacing: 0%;
 
-        text-align: start;    
-}
+        text-align: start;
+    }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 2.5rem;
         line-height: 100%;
         letter-spacing: 0%;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-family: Palanquin;
         font-style: normal;
         font-size: 1.125rem;
@@ -141,7 +141,7 @@ span{
 
 
 
-     /* Metadata Section */
+    /* Metadata Section */
 
     .landing-section-metadata {
         display: flex;
@@ -158,7 +158,7 @@ span{
         margin-top: 20px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: normal;
@@ -167,7 +167,7 @@ span{
         letter-spacing: 0%;
     }
 
-    .landing-section-metadata-upperrow{
+    .landing-section-metadata-upperrow {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -179,7 +179,7 @@ span{
         gap: 20px;
     }
 
-    .landing-section-metadata-calendar{
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -189,11 +189,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -203,11 +203,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
 
-    .landing-section-metadata-lowerrow{
+    .landing-section-metadata-lowerrow {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -219,7 +219,7 @@ span{
         gap: 20px;
     }
 
-    .landing-section-metadata-eye{
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -229,11 +229,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -243,7 +243,7 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -251,7 +251,7 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 345px;
         height: 350px;
 
@@ -260,46 +260,46 @@ span{
         margin-top: 20px;
     }
 
-    .author-img{
+    .author-img {
         width: 120px;
         height: 120px;
     }
 
-    .author-passage{
+    .author-passage {
         width: 100%;
         height: auto;
     }
 
-    .authorsection-name{
+    .authorsection-name {
         font-size: 1rem;
     }
 
-    .authorsection-job-titel{
+    .authorsection-job-titel {
         font-size: 1rem;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
     }
-    
+
 
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
-        
+
         width: 345px;
         height: 193px;
-        
+
         gap: 32px;
     }
 
-    .main-section h2{
+    .main-section h2 {
         font-family: Arima;
         font-weight: 600;
         font-style: SemiBold;
@@ -310,7 +310,7 @@ span{
         text-align: center;
     }
 
-    .main-section p{
+    .main-section p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
@@ -321,7 +321,7 @@ span{
         text-align: start;
     }
 
-    .video{
+    .video {
         width: 345px;
         height: 192px;
 
@@ -329,12 +329,12 @@ span{
         border-radius: 10px;
     }
 
-    iframe{
+    iframe {
         width: 345px;
         height: 192px;
     }
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -342,12 +342,12 @@ span{
         width: 345px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 343px;
 
         font-family: Palanquin;
@@ -358,14 +358,14 @@ span{
 
 
     ul {
-    font-family: Palanquin;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 120%;
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
     }
 
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -381,12 +381,12 @@ span{
 
 @media screen and (min-width:480px) and (max-width:580px) {
 
-.main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        
+
         width: 100%;
         max-width: 579px;
         margin: 0 auto;
@@ -399,7 +399,7 @@ span{
         gap: 40px;
     }
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         width: 430px;
         height: 710px;
 
@@ -411,7 +411,7 @@ span{
         flex-direction: column;
     }
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -422,27 +422,27 @@ span{
         gap: 8px;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 1.25rem;
         line-height: 120%;
         letter-spacing: 0%;
 
-        text-align: start;    
-}
+        text-align: start;
+    }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 2.5rem;
         line-height: 100%;
         letter-spacing: 0%;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.125rem;
     }
 
 
 
-      /* Metadata Section */
+    /* Metadata Section */
 
     .landing-section-metadata {
         display: flex;
@@ -459,7 +459,7 @@ span{
         margin-top: 20px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
@@ -467,7 +467,7 @@ span{
         letter-spacing: 0%;
     }
 
-    .landing-section-metadata-calendar{
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -477,11 +477,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -491,11 +491,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
 
-    .landing-section-metadata-eye{
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -505,11 +505,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -519,7 +519,7 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -527,7 +527,7 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 430px;
         height: 340px;
 
@@ -536,7 +536,7 @@ span{
         margin-top: 20px;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
     }
@@ -545,19 +545,19 @@ span{
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
-        
+
         width: 430px;
         height: 193px;
-        
+
         gap: 32px;
     }
 
-    .main-section h2{
+    .main-section h2 {
         font-family: Arima;
         font-weight: 600;
         font-style: SemiBold;
@@ -568,7 +568,7 @@ span{
         text-align: center;
     }
 
-    .main-section p{
+    .main-section p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
@@ -579,7 +579,7 @@ span{
         text-align: start;
     }
 
-    .video{
+    .video {
         width: 430px;
         height: 241px;
 
@@ -587,13 +587,13 @@ span{
         border-radius: 10px;
     }
 
-    iframe{
+    iframe {
         width: 430px;
         height: 241px;
     }
 
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -601,7 +601,7 @@ span{
         width: 430px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
@@ -615,13 +615,13 @@ span{
     }
 
     ul {
-    font-family: Palanquin;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 120%;
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -639,12 +639,12 @@ span{
 @media screen and (min-width: 581px) and (max-width: 740px) {
 
 
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        
+
         width: 100%;
         max-width: 767px;
         margin: 0 auto;
@@ -658,7 +658,7 @@ span{
     }
 
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         width: 530px;
         height: 740px;
 
@@ -670,7 +670,7 @@ span{
         flex-direction: column;
     }
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -682,21 +682,21 @@ span{
     }
 
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 1.25rem;
         line-height: 120%;
         letter-spacing: 0%;
 
-        text-align: start;    
+        text-align: start;
     }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 2.5rem;
         line-height: 100%;
         letter-spacing: 0%;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.25rem;
     }
 
@@ -719,7 +719,7 @@ span{
         margin-top: 20px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
@@ -727,7 +727,7 @@ span{
         letter-spacing: 0%;
     }
 
-    .landing-section-metadata-calendar{
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -737,11 +737,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -751,11 +751,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
 
-    .landing-section-metadata-eye{
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -765,11 +765,11 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -779,7 +779,7 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -787,7 +787,7 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 530px;
         height: 300px;
 
@@ -796,7 +796,7 @@ span{
         margin-top: 20px;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
     }
@@ -805,19 +805,19 @@ span{
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
-        
+
         width: 530px;
         height: 150px;
-        
+
         gap: 32px;
     }
 
-    .main-section h2{
+    .main-section h2 {
         font-family: Arima;
         font-weight: 600;
         font-style: SemiBold;
@@ -828,7 +828,7 @@ span{
         text-align: center;
     }
 
-    .main-section p{
+    .main-section p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1.125rem;
@@ -839,7 +839,7 @@ span{
         text-align: start;
     }
 
-    .video{
+    .video {
         width: 530px;
         height: 298px;
 
@@ -847,12 +847,12 @@ span{
         border-radius: 10px;
     }
 
-    iframe{
+    iframe {
         width: 530px;
         height: 298px;
     }
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -860,12 +860,12 @@ span{
         width: 530px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 530px;
 
         font-family: Palanquin;
@@ -875,13 +875,13 @@ span{
     }
 
     ul {
-    font-family: Palanquin;
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 120%;
+        font-family: Palanquin;
+        font-weight: 400;
+        font-size: 1.125rem;
+        line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -908,14 +908,14 @@ span{
         gap: 102px;
     }
 
-    
 
-    .main{
+
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        
+
         width: 100%;
         max-width: 1055px;
         margin: 0 auto;
@@ -931,7 +931,7 @@ span{
 
     /* Landing Section with Titel and introtext */
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         width: 700px;
         height: 560px;
 
@@ -943,7 +943,7 @@ span{
         flex-direction: row;
     }
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -954,21 +954,21 @@ span{
         gap: 8px;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 1.75rem;
         line-height: 120%;
         letter-spacing: 0%;
 
-        text-align: start;    
+        text-align: start;
     }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 3rem;
         line-height: 100%;
         letter-spacing: 0%;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.5rem;
     }
 
@@ -991,7 +991,7 @@ span{
         margin-top: 20px;
     }
 
-     .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1rem;
@@ -999,12 +999,12 @@ span{
         letter-spacing: 0%;
     }
 
-    .landing-section-metadata-upperrow{
+    .landing-section-metadata-upperrow {
         gap: 20px;
 
     }
 
-    .landing-section-metadata-calendar{
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -1014,12 +1014,12 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -1029,17 +1029,17 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
 
 
-     .landing-section-metadata-lowerrow{
+    .landing-section-metadata-lowerrow {
         gap: 20px;
 
     }
 
-    .landing-section-metadata-eye{
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -1049,12 +1049,12 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         justify-content: start;
@@ -1064,7 +1064,7 @@ span{
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -1072,14 +1072,14 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 272px;
         height: 460px;
 
         gap: 16px;
     }
 
-    .img-box{
+    .img-box {
         margin-top: 10px;
 
     }
@@ -1094,22 +1094,22 @@ span{
         height: auto;
     } */
 
-    .authorsection-name{
+    .authorsection-name {
         font-size: 1.25rem;
     }
 
-    .authorsection-job-titel{
+    .authorsection-job-titel {
         font-size: 1.25rem;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
 
         padding-top: 20px;
     }
 
-    .author-text > p{
+    .author-text>p {
         font-size: 1.125rem;
     }
 
@@ -1117,19 +1117,19 @@ span{
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
-        
+
         width: 700px;
         height: 144px;
-        
+
         gap: 32px;
     }
 
-    .main-section h2{
+    .main-section h2 {
         font-family: Arima;
         font-weight: 600;
         font-style: SemiBold;
@@ -1140,7 +1140,7 @@ span{
         text-align: center;
     }
 
-    .main-section p{
+    .main-section p {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1.25rem;
@@ -1151,7 +1151,7 @@ span{
         text-align: start;
     }
 
-    .video{
+    .video {
         width: 700px;
         height: 394px;
 
@@ -1159,13 +1159,13 @@ span{
         border-radius: 53px;
     }
 
-    iframe{
+    iframe {
         width: 700px;
         height: 394px;
     }
 
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1173,12 +1173,12 @@ span{
         width: 700px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 700px;
 
         font-family: Palanquin;
@@ -1195,7 +1195,7 @@ span{
         line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -1209,12 +1209,12 @@ span{
 
 @media screen and (min-width: 951px) and (max-width:1056px) {
 
-     .main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        
+
         width: 100%;
         max-width: 1056px;
         margin: 0 auto;
@@ -1224,7 +1224,7 @@ span{
         gap: 40px;
     }
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1235,39 +1235,39 @@ span{
         gap: 48px;
     }
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
-    
+
         width: 920px;
         height: 100%;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 1.75rem;
         line-height: 120%;
-        letter-spacing: 0%;      
+        letter-spacing: 0%;
     }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 3rem;
         line-height: 100%;
         letter-spacing: 0%;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.5rem;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
 
 
     /* Metadata Section */
 
-    .landing-section-metadata{
+    .landing-section-metadata {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1278,7 +1278,7 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -1286,84 +1286,84 @@ span{
         line-height: 120%;
         letter-spacing: 0%;
     }
-  
-    .landing-section-metadata-calendar{
+
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         width: 136px;
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         width: 161px;
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
-  
-    .landing-section-metadata-eye{
+
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         width: 86px;
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         width: 93px;
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 472px;
         height: 420px;
 
         gap: 16px;
     }
 
-    .author-img{
+    .author-img {
         width: 120px;
         height: 120px;
     }
 
-    .author-passage{
+    .author-passage {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 270px;
     }
 
-    .authorsection-name{
+    .authorsection-name {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .authorsection-job-titel{
+    .authorsection-job-titel {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
 
@@ -1373,24 +1373,24 @@ span{
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: start;
-        
+
         width: 920px;
         height: 144px;
-        
+
         gap: 32px;
     }
 
-    .landing-section-introtext{
+    .landing-section-introtext {
         width: 100%;
         height: 130px;
     }
 
-    .landing-section-introtext > p{
+    .landing-section-introtext>p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -1403,7 +1403,7 @@ span{
     }
 
 
-    .video{
+    .video {
         width: 920px;
         height: 518px;
 
@@ -1411,12 +1411,12 @@ span{
         border-radius: 53px;
     }
 
-    iframe{
+    iframe {
         width: 920px;
         height: 518px;
     }
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1424,12 +1424,12 @@ span{
         width: 920px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 920px;
 
         font-family: Palanquin;
@@ -1445,7 +1445,7 @@ span{
         line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -1458,7 +1458,7 @@ span{
 
 
 
-@media screen and (min-width:1057px) and (max-width: 1229px)  {
+@media screen and (min-width:1057px) and (max-width: 1229px) {
 
     .header {
         width: 100%;
@@ -1468,7 +1468,7 @@ span{
         justify-content: start;
     }
 
-    .header > a > img{
+    .header>a>img {
         width: 72px;
     }
 
@@ -1476,12 +1476,12 @@ span{
         display: flex;
     }
 
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: start;
         align-items: center;
-        
+
         width: 100%;
         max-width: 1229px;
         margin: 0 auto;
@@ -1492,13 +1492,13 @@ span{
         padding: 0px;
 
         gap: 40px;
-    } 
+    }
 
 
 
     /* Landing Section with Titel and introtext */
-    
-    .landing-section-carousel{
+
+    .landing-section-carousel {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1509,39 +1509,39 @@ span{
         gap: 48px;
     }
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
-    
+
         width: 670px;
         height: 100%;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 2.5rem;
         line-height: 120%;
-        letter-spacing: 0%;      
+        letter-spacing: 0%;
     }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 4rem;
         line-height: 100%;
         letter-spacing: 0%;
 
-         /* padding-top: 10px; */
+        /* padding-top: 10px; */
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.5rem;
 
-         padding-top: 10px;
+        padding-top: 10px;
     }
 
 
 
     /* Metadata Section */
 
-    .landing-section-metadata{
+    .landing-section-metadata {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1552,7 +1552,7 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -1560,48 +1560,48 @@ span{
         line-height: 120%;
         letter-spacing: 0%;
     }
-  
-    .landing-section-metadata-calendar{
+
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         width: 136px;
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         width: 161px;
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
-  
-    .landing-section-metadata-eye{
+
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         width: 86px;
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         width: 93px;
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -1609,36 +1609,36 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 272px;
         height: 420px;
 
         gap: 16px;
     }
 
-    .author-img{
+    .author-img {
         width: 120px;
         height: 120px;
     }
 
-    .author-passage{
+    .author-passage {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 270px;
     }
 
-    .authorsection-name{
+    .authorsection-name {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .authorsection-job-titel{
+    .authorsection-job-titel {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
 
@@ -1649,23 +1649,23 @@ span{
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        
+
         width: 1020px;
         height: 145px;
-        
+
         gap: 32px;
     }
 
-    .landing-section-introtext{
+    .landing-section-introtext {
         width: 100%px;
     }
 
-    .landing-section-introtext > p{
+    .landing-section-introtext>p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -1678,7 +1678,7 @@ span{
     }
 
 
-    .video{
+    .video {
         width: 931px;
         height: 520px;
 
@@ -1686,12 +1686,12 @@ span{
         border-radius: 53px;
     }
 
-    iframe{
+    iframe {
         width: 931px;
         height: 520px;
     }
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1699,12 +1699,12 @@ span{
         width: 1020px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 1020px;
 
         font-family: Palanquin;
@@ -1713,14 +1713,14 @@ span{
         line-height: 120%;
     }
 
-     ul {
+    ul {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -1750,7 +1750,7 @@ span{
     }
 
 
-    .header > a > img{
+    .header>a>img {
         width: 72px;
 
         /* margin-left: 146px; */
@@ -1761,12 +1761,12 @@ span{
     }
 
 
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         width: 1200px;
         height: 100%;
 
@@ -1777,7 +1777,7 @@ span{
 
     /* Landing Section with Titel and introtext */
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -1787,24 +1787,24 @@ span{
 
         padding-top: 80px;
 
-        gap: 48px;  
+        gap: 48px;
     }
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
-    
+
         width: 902px;
         height: 400px;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 2.5rem;
         line-height: 120%;
         letter-spacing: 0%;
     }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 4rem;
         line-height: 100%;
         letter-spacing: 0%;
@@ -1812,7 +1812,7 @@ span{
         padding-top: 10px;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.75rem;
 
         padding-top: 10px;
@@ -1822,7 +1822,7 @@ span{
 
     /* Metadata Section */
 
-    .landing-section-metadata{
+    .landing-section-metadata {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -1833,7 +1833,7 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -1841,48 +1841,48 @@ span{
         line-height: 120%;
         letter-spacing: 0%;
     }
-  
-    .landing-section-metadata-calendar{
+
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         width: 136px;
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         width: 161px;
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
-  
-    .landing-section-metadata-eye{
+
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         width: 86px;
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         width: 93px;
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -1890,36 +1890,36 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 272px;
         height: 400px;
 
         gap: 16px;
     }
 
-    .author-img{
+    .author-img {
         width: 120px;
         height: 120px;
     }
 
-    .author-passage{
+    .author-passage {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 270px;
     }
 
-    .authorsection-name{
+    .authorsection-name {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .authorsection-job-titel{
+    .authorsection-job-titel {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
 
@@ -1930,23 +1930,23 @@ span{
 
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        
+
         width: 1200px;
         height: 100%;
-        
+
         gap: 32px;
     }
 
-    .landing-section-introtext{
+    .landing-section-introtext {
         width: 100%px;
     }
 
-    .landing-section-introtext > p{
+    .landing-section-introtext>p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -1959,7 +1959,7 @@ span{
     }
 
 
-    .video{
+    .video {
         width: 931px;
         height: 520px;
 
@@ -1967,12 +1967,12 @@ span{
         border-radius: 53px;
     }
 
-    iframe{
+    iframe {
         width: 931px;
         height: 520px;
     }
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1980,12 +1980,12 @@ span{
         width: 1200px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 1200px;
 
         font-family: Palanquin;
@@ -1994,14 +1994,14 @@ span{
         line-height: 120%;
     }
 
-     ul {
+    ul {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
@@ -2017,7 +2017,7 @@ span{
 
 @media screen and (min-width: 1440px) {
 
-  .header {
+    .header {
         width: 100%;
         height: 128px;
         display: flex;
@@ -2028,7 +2028,7 @@ span{
     }
 
 
-    .header > a > img{
+    .header>a>img {
         width: 72px;
     }
 
@@ -2037,12 +2037,12 @@ span{
     }
 
 
-    .main{
+    .main {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         width: 1200px;
         height: 100%;
 
@@ -2055,7 +2055,7 @@ span{
 
     /* Landing Section with Titel and introtext */
 
-    .landing-section-carousel{
+    .landing-section-carousel {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -2069,21 +2069,21 @@ span{
     }
 
 
-    .landing-section-text{
+    .landing-section-text {
         display: flex;
         flex-direction: column;
-    
+
         width: 902px;
         height: 400px;
     }
 
-    .landing-section-text > div > h2{
+    .landing-section-text>div>h2 {
         font-size: 2.5rem;
         line-height: 120%;
         letter-spacing: 0%;
     }
 
-    .landing-section-text > div > h1{
+    .landing-section-text>div>h1 {
         font-size: 4rem;
         line-height: 100%;
         letter-spacing: 0%;
@@ -2091,7 +2091,7 @@ span{
         padding-top: 10px;
     }
 
-    .landing-section-text > div > p{
+    .landing-section-text>div>p {
         font-size: 1.75rem;
 
         padding-top: 10px;
@@ -2101,7 +2101,7 @@ span{
 
     /* Metadata Section */
 
-    .landing-section-metadata{
+    .landing-section-metadata {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -2112,7 +2112,7 @@ span{
         gap: 32px;
     }
 
-    .landing-section-metadata p{
+    .landing-section-metadata p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -2120,48 +2120,48 @@ span{
         line-height: 120%;
         letter-spacing: 0%;
     }
-  
-    .landing-section-metadata-calendar{
+
+    .landing-section-metadata-calendar {
         display: flex;
         flex-direction: row;
         width: 136px;
         gap: 6px;
     }
 
-    .landing-section-metadata-calendar > img{
+    .landing-section-metadata-calendar>img {
         width: 16px;
     }
 
-    .landing-section-metadata-glasses{
+    .landing-section-metadata-glasses {
         display: flex;
         flex-direction: row;
         width: 161px;
         gap: 6px;
     }
 
-    .landing-section-metadata-glasses > img{
+    .landing-section-metadata-glasses>img {
         width: 20px;
     }
-  
-    .landing-section-metadata-eye{
+
+    .landing-section-metadata-eye {
         display: flex;
         flex-direction: row;
         width: 86px;
         gap: 6px;
     }
 
-    .landing-section-metadata-eye > img{
+    .landing-section-metadata-eye>img {
         width: 20px;
     }
 
-    .landing-section-metadata-share{
+    .landing-section-metadata-share {
         display: flex;
         flex-direction: row;
         width: 93px;
         gap: 6px;
     }
 
-    .landing-section-metadata-share > img{
+    .landing-section-metadata-share>img {
         width: 16px;
     }
 
@@ -2169,36 +2169,36 @@ span{
 
     /* Author Section with box */
 
-    .authorsection{
+    .authorsection {
         width: 272px;
         height: 400px;
 
         gap: 16px;
     }
 
-    .author-img{
+    .author-img {
         width: 120px;
         height: 120px;
     }
 
-    .author-passage{
+    .author-passage {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 270px;
     }
 
-    .authorsection-name{
+    .authorsection-name {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .authorsection-job-titel{
+    .authorsection-job-titel {
         font-size: 1.125rem;
         height: 19px;
     }
 
-    .author-text{
+    .author-text {
         width: 100%;
         text-align: center;
 
@@ -2206,26 +2206,26 @@ span{
     }
 
 
-    
+
     /* Main content */
 
-    .main-section{
+    .main-section {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        
+
         width: 1200px;
         height: 100%;
-        
+
         gap: 32px;
     }
 
-    .landing-section-introtext{
+    .landing-section-introtext {
         width: 100%px;
     }
 
-    .landing-section-introtext > p{
+    .landing-section-introtext>p {
         font-family: Palanquin;
         font-weight: 400;
         font-style: Regular;
@@ -2238,7 +2238,7 @@ span{
     }
 
 
-    .video{
+    .video {
         width: 931px;
         height: 520px;
 
@@ -2246,12 +2246,12 @@ span{
         border-radius: 53px;
     }
 
-    iframe{
+    iframe {
         width: 931px;
         height: 520px;
     }
 
-    .Main-Text{
+    .Main-Text {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2259,12 +2259,12 @@ span{
         width: 1200px;
     }
 
-    .main-text-list{
+    .main-text-list {
         margin: 0px;
     }
 
     .Main-Text-Paragraph {
-     
+
         width: 1200px;
 
         font-family: Palanquin;
@@ -2273,14 +2273,14 @@ span{
         line-height: 120%;
     }
 
-     ul {
+    ul {
         font-family: Palanquin;
         font-weight: 400;
         font-size: 1.5rem;
         line-height: 120%;
     }
 
-    span{
+    span {
         font-family: Palanquin;
         font-weight: 700;
         font-style: bold;
