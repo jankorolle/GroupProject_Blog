@@ -416,11 +416,6 @@
         gap: 48px;
     }
 
-    .nav-bar>div>img{
-        width: 40px;
-        height: 40px;
-    }
-
 }
 
 @media screen and (min-width: 480px) and (max-width: 579px){
@@ -899,11 +894,6 @@
     .nav-bar>div{
         display: flex;
         gap: 48px;
-    }
-
-    .nav-bar>div>img{
-        width: 40px;
-        height: 40px;
     }
 
 }
@@ -1561,10 +1551,6 @@
         gap: 64px;
     }
 
-    .nav-bar>div>img{
-        width: 40px;
-        height: 40px;
-    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -2176,10 +2162,6 @@
         gap: 64px;
     }
 
-    .nav-bar>div>img{
-        width: 40px;
-        height: 40px;
-    }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1231px) {

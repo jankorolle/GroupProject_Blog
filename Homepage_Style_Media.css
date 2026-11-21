@@ -249,6 +249,8 @@
         max-width: 630px;
     }
 
+
+
     .shareForm {
         max-width: 630px;
     }
@@ -333,8 +335,6 @@
     .hero-text h1 {
         font-size: 30px;
 
-
-
     }
 
     .landing-section {
@@ -358,6 +358,11 @@
 
     .badge {
         left: 25%;
+    }
+
+    .highlightsContentBox {
+        width: 450px;
+
     }
 
     .FAQ_section {
@@ -407,6 +412,11 @@
 
     .badge {
         left: 28%;
+    }
+
+    .highlightsContentBox {
+        width: 380px;
+
     }
 
     .highlightsDiscription {
@@ -501,14 +511,14 @@
     }
 
     .highlightsContentBox {
-        width: 370px;
+        width: 310px;
     }
 
 
     .highlights-Content-Text {
 
         max-width: 370px;
-        font-size: 20px;
+        font-size: 19px;
     }
 
     .FAQ_section {
@@ -732,4 +742,45 @@
     }
 
 
+}
+
+@media (max-width:374px) {
+    @keyframes shrink-and-move {
+        from {
+            transform: scale(1);
+        }
+
+        to {
+            transform: scale(0.4);
+        }
+    }
+
+    .hero-image {
+        width: 320px;
+    }
+
+    .main-section {
+        width: 320px;
+    }
+
+    .highlights-Content-img {
+        width: 320px;
+    }
+
+    .highlightsContent {
+        max-width: 320px;
+    }
+
+
+    .sliderLink {
+        width: 320px;
+    }
+
+    .slider_a {
+        width: 320px;
+    }
+
+    .FAQ_section {
+        width: 320px;
+    }
 }

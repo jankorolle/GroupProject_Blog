@@ -101,7 +101,8 @@ body {
 .highlights {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  height: 60px;
 }
 
 .highlights>img {
@@ -120,7 +121,8 @@ body {
 .faq {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  height: 60px;
 }
 
 .faq>img {
@@ -139,7 +141,8 @@ body {
 .contacts {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
+  height: 60px;
 }
 
 .contacts>img {
@@ -573,7 +576,7 @@ input[type="radio"]:checked {
   display: inline-block;
   width: 16px;
   height: 16px;
-  
+
   background-image: url(./assets/IMG/arrow_forward_ios.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -735,9 +738,9 @@ input:focus {
   justify-content: center;
 }
 
-[type="checkbox"]+label:hover::before {
+/* [type="checkbox"]+label:hover::before {
   background-color: #F1C953;
-}
+} */
 
 .privacyPolicy label {
   width: auto;
