@@ -199,6 +199,7 @@ h3 {
   z-index: 2;
 }
 
+
 .s-curve-images {
   display: flex;
   flex-direction: row;
@@ -212,6 +213,10 @@ h3 {
   height: 515px;
 
   overflow: visible;
+}
+
+.s-curve-images-graphic-alt {
+  display: hidden;
 }
 
 .s-curve-images-cover {
@@ -564,7 +569,15 @@ input[type="radio"]:checked {
 }
 
 .accordion:after {
-  content: '\02C5';
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  
+  background-image: url(./assets/IMG/arrow_forward_ios.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
   color: #777;
   font-weight: bold;
   float: right;
@@ -573,7 +586,15 @@ input[type="radio"]:checked {
 }
 
 .active:after {
-  content: "\02C4";
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url(./assets/IMG/arrow_forward_ios.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transform: rotate(180deg);
 }
 
 
