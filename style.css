@@ -2466,9 +2466,18 @@ body {
 }
 
 @media (max-width:374px) {
+    
+    .header {
+        gap: 0px;
+        padding: 0px 115px 0px 115px;
+    }
+    
+    
     .header-buttons {
         display: none;
     }
+
+
 
     .footer {
         width: 100%;
@@ -2501,32 +2510,43 @@ body {
         align-items: start;
         gap: 8px;
 
-        width: 147px;
+        width: 134px;
         height: 74px;
 
         line-height: 120%;
     }
 
+
+    .footer-section-left-links > p {
+        font-size: 0.8rem;
+    }
+
+
     .footer-section-left-copyright {
         display: flex;
         align-items: center;
+        font-size: 0.8rem;
+
+        width: 134px;
     }
+
+
 
     .footer-section-right {
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 10px;
 
-        width: 153px;
+        width: 50%;
         height: 24px;
     }
 
     .footer-section-right img {
-        height: 24px
+        height: 20px;
     }
 
     .footer-section-right a {
-        height: 24px;
+        height: 16px;
     }
 
 
