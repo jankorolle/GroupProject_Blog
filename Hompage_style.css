@@ -102,7 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 60px;
+  height: 40px;
 }
 
 .highlights>img {
@@ -122,7 +122,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 60px;
+  height: 40px;
 }
 
 .faq>img {
@@ -142,7 +142,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 60px;
+  height: 40px;
 }
 
 .contacts>img {

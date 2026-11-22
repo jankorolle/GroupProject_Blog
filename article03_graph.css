@@ -661,6 +661,87 @@
         gap: 40px;
     }
 
+
+    header {
+  z-index: 10;
+}
+
+    .header a {
+    color: #ffffff;
+    text-decoration: none;
+
+    }
+
+    .header>div>div>img:hover {
+    color: #ffffff;
+    cursor: pointer;
+    }
+
+    .header a:active {
+    color: #F1C953;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+    .highlights {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60px;
+    }
+
+    .highlights>img {
+    position: relative;
+    top: -20px;
+    left: -5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    }
+
+    .highlights:hover>img {
+    opacity: 1;
+    }
+
+
+    .faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60px;
+    }
+
+    .faq>img {
+    position: relative;
+    top: -15px;
+    left: -5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    }
+
+    .faq:hover>img {
+    opacity: 1;
+    }
+
+
+    .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60px;
+    }
+
+    .contacts>img {
+    position: relative;
+    top: -15px;
+    left: -5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    }
+
+    .contacts:hover>img {
+    opacity: 1;
+    }
+
     .landing-section-carousel{
         width: 530px;
         height: 680px;
@@ -2454,3 +2535,4 @@
 
         
 }
+
