@@ -2468,10 +2468,18 @@ body {
 @media (max-width:374px) {
     
     .header {
-        gap: 0px;
-        padding: 0px 115px 0px 115px;
+        height: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 16px 5px 16px;
+        gap: 10px;
     }
-    
+
+    .header img {
+        width: 56px;
+        height: 56px;
+    }
     
     .header-buttons {
         display: none;
