@@ -14,11 +14,8 @@
 .video {
     width: 931px;
     height: 520px;
-    border-radius: 53px;
-
     gap: 10px;
 
-    overflow: hidden;
 }
 
 
@@ -316,9 +313,6 @@ span {
      .video {
         width: 290px;
         height: auto;
-
-        overflow: hidden;
-        border-radius: 10px;
     }
 
     iframe {
@@ -624,9 +618,6 @@ span {
     .video {
         width: 345px;
         height: 192px;
-
-        overflow: hidden;
-        border-radius: 10px;
     }
 
     iframe {
@@ -882,9 +873,6 @@ span {
     .video {
         width: 430px;
         height: 241px;
-
-        overflow: hidden;
-        border-radius: 10px;
     }
 
     iframe {
@@ -1142,9 +1130,6 @@ span {
     .video {
         width: 530px;
         height: 298px;
-
-        overflow: hidden;
-        border-radius: 10px;
     }
 
     iframe {
@@ -1454,9 +1439,6 @@ span {
     .video {
         width: 700px;
         height: 394px;
-
-        overflow: hidden;
-        border-radius: 53px;
     }
 
     iframe {
@@ -1706,9 +1688,6 @@ span {
     .video {
         width: 920px;
         height: 518px;
-
-        overflow: hidden;
-        border-radius: 53px;
     }
 
     iframe {
@@ -1981,9 +1960,6 @@ span {
     .video {
         width: 931px;
         height: 520px;
-
-        overflow: hidden;
-        border-radius: 53px;
     }
 
     iframe {
@@ -2262,9 +2238,6 @@ span {
     .video {
         width: 931px;
         height: 520px;
-
-        overflow: hidden;
-        border-radius: 53px;
     }
 
     iframe {
@@ -2541,9 +2514,6 @@ span {
     .video {
         width: 931px;
         height: 520px;
-
-        overflow: hidden;
-        border-radius: 53px;
     }
 
     iframe {
