@@ -755,32 +755,66 @@
         }
     }
 
+    h2 {
+        font-size: 35px;
+    }
+
     .hero-image {
-        width: 320px;
+        width: 100%;
     }
 
     .main-section {
-        width: 320px;
+        width: 100%;
     }
 
+    .highlightsContentBox {
+        top: 80px;
+        width: 240px;
+        left: 15px;
+
+    }
+
+
     .highlights-Content-img {
-        width: 320px;
+        width: 280px;
     }
 
     .highlightsContent {
-        max-width: 320px;
+        max-width: 280px;
     }
 
 
     .sliderLink {
-        width: 320px;
+        width: 280px;
     }
 
     .slider_a {
-        width: 320px;
+        width: 280px;
     }
 
     .FAQ_section {
-        width: 320px;
+        width: 280px;
+    }
+
+    .ShareBox {
+        width: 280px;
+    }
+
+    .Contact-form {
+        width: 280px;
+    }
+
+    .question {
+        max-width: 280px;
+    }
+
+    .privacyPolicy label {
+        width: 250px;
+        font-size: 12px;
+    }
+
+    .privacyPolicy {
+        justify-content: flex-start;
+        width: 280px;
     }
 }
