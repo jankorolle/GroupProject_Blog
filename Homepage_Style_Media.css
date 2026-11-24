@@ -776,45 +776,45 @@
 
 
     .highlights-Content-img {
-        width: 280px;
+        width: 290px;
     }
 
     .highlightsContent {
-        max-width: 280px;
+        max-width: 290px;
     }
 
 
     .sliderLink {
-        width: 280px;
+        width: 290px;
     }
 
     .slider_a {
-        width: 280px;
+        width: 290px;
     }
 
     .FAQ_section {
-        width: 280px;
+        width: 290px;
     }
 
     .ShareBox {
-        width: 280px;
+        width: 290px;
     }
 
     .Contact-form {
-        width: 280px;
+        width: 290px;
     }
 
     .question {
-        max-width: 280px;
+        max-width: 290px;
     }
 
     .privacyPolicy label {
         width: 250px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .privacyPolicy {
         justify-content: flex-start;
-        width: 280px;
+        width: 290px;
     }
 }
