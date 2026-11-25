@@ -233,9 +233,7 @@ h3 {
 }
 
 .s-curve-images-graphic {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
+
   transform-origin: top left;
   flex-shrink: 0;
 
@@ -777,8 +775,8 @@ input:focus {
 }
 
 
-/* 
-* {
+
+/* * {
   background: #000 !important;
   color: #0f0 !important;
   outline: solid #f00 1px !important;

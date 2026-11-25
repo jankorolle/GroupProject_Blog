@@ -1,6 +1,7 @@
-.main {
-    width: 1200px;
-    height: 2706px;
+.main-art02{
+  width: 1232px;
+  margin: 0 auto;
+  padding-bottom: 90px;
 }
 
 .landing-section-introtext>p {
@@ -68,7 +69,7 @@ span {
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
     
-    .main{
+    .main-art02{
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -369,7 +370,7 @@ span {
 
 @media screen and (min-width: 375px) and (max-width:479px) {
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -672,7 +673,7 @@ span {
 
 @media screen and (min-width:480px) and (max-width:580px) {
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -927,7 +928,7 @@ span {
 @media screen and (min-width: 581px) and (max-width: 740px) {
 
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -1195,7 +1196,7 @@ span {
 
 
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -1491,7 +1492,7 @@ span {
 
 @media screen and (min-width: 951px) and (max-width:1056px) {
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -1755,7 +1756,7 @@ span {
         display: flex;
     }
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -2037,7 +2038,7 @@ span {
     }
 
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -2310,7 +2311,7 @@ span {
     }
 
 
-    .main {
+    .main-art02 {
         display: flex;
         flex-direction: column;
         justify-content: center;
