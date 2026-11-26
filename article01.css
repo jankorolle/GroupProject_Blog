@@ -2,7 +2,6 @@
   width: 1232px;
   margin: 0 auto;
   padding-bottom: 90px;
-  overflow: hidden;
 }
 
 header {
@@ -327,7 +326,7 @@ header {
 .main-beach-accomodation-descr > p{
   font-family: Palanquin;
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal;
   font-size: 1.5rem;
   line-height: 120%;
   letter-spacing: 0%;
