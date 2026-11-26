@@ -73,11 +73,16 @@
         text-align: center;
     }
 
+
     .slider-section {
-        width: 345px;
-        padding: 40px 0px;
+        width: 290px;
+        height: 450px;
+        overflow: hidden;
+
+        padding: 0px;
     }
 
+  
     .slider-section>div>p {
         font-size: 1rem;
         padding-bottom: 16px;
@@ -86,7 +91,7 @@
     .img-slider {
         position: relative;
 
-        width: 200px;
+        width: 180px;
         height: 300px;
 
         margin: 0 auto;
@@ -205,7 +210,7 @@
 
     .description {
         width: 290px;
-        padding-top: 40px;
+        padding-top: 0px;
     }
 
     .description-box {
@@ -253,7 +258,7 @@
         width: 290px;
         height: 140px;
 
-        margin-top: 50px;
+        margin-top: 0px;
         gap: 48px;
     }
 
