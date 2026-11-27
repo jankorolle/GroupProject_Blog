@@ -36,6 +36,9 @@
         width: 100%;
     }
 
+    .badge {
+        left: 29%;
+    }
 }
 
 @media (max-width:1225px) {
@@ -51,7 +54,7 @@
     }
 
     .badge {
-        left: 35%;
+        left: 31%;
     }
 
     .FAQ_section {
@@ -157,10 +160,6 @@
         width: 720px;
     }
 
-    .badge {
-        left: 33%;
-    }
-
     .FAQ_section {
         max-width: 720px;
     }
@@ -202,10 +201,6 @@
 
     .main-section {
         width: 630px;
-    }
-
-    .badge {
-        left: 35%;
     }
 
     .FAQ_section {
@@ -310,7 +305,7 @@
     }
 
     .badge {
-        left: 25%;
+        left: 20%;
     }
 
     .highlightsContentBox {
@@ -329,7 +324,20 @@
 }
 
 @media (max-width:560px) {
+    @keyframes MoveBadge {
+        0% {
+            visibility: visible;
 
+        }
+
+        100% {
+
+            opacity: 1;
+            top: 35%;
+            visibility: visible;
+
+        }
+    }
 
 
     .hero-text h1 {
@@ -356,7 +364,7 @@
     }
 
     .badge {
-        left: 28%;
+        left: 23%;
     }
 
     .highlightsContentBox {
@@ -401,6 +409,19 @@
 }
 
 @media (max-width:480px) {
+    @keyframes heroTextLeft {
+
+        0% {
+            left: 50%;
+            transform: translate(-50%, 0);
+        }
+
+        100% {
+            left: 3%;
+            transform: translate(0, -110px);
+        }
+    }
+
     @keyframes shrink-and-move {
         from {
             transform: scale(1);
@@ -414,12 +435,13 @@
     @keyframes MoveBadge {
         0% {
             visibility: visible;
+
         }
 
         100% {
 
             opacity: 1;
-            top: 30%;
+            top: 28%;
             visibility: visible;
 
         }
@@ -445,6 +467,10 @@
 
     .main-section {
         width: 370px;
+    }
+
+    .badge {
+        left: 13%;
     }
 
     .highlightsContentBox {
