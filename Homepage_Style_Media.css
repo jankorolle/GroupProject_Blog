@@ -1,9 +1,4 @@
 @media (max-width:1460px) {
-    .landing-section {
-
-        max-width: 1200px;
-
-    }
 
     .hero-image {
         width: 100%;
@@ -36,12 +31,15 @@
     }
 }
 
-@media (max-width:1225px) {
-    .landing-section {
-
-        max-width: 990px;
-
+@media (max-width:1440px) {
+    .content {
+        width: 100%;
     }
+
+}
+
+@media (max-width:1225px) {
+
 
     .hero-text p {
         font-size: 25px;
@@ -90,13 +88,6 @@
             width: 10%;
 
         }
-    }
-
-
-    .landing-section {
-
-        max-width: 800px;
-
     }
 
 
@@ -157,13 +148,6 @@
         }
     }
 
-
-    .landing-section {
-
-        max-width: 720px;
-
-    }
-
     .hero-text p {
         font-size: 20px;
         width: 220px;
@@ -209,12 +193,6 @@
             width: 4%;
 
         }
-    }
-
-    .landing-section {
-
-        max-width: 630px;
-
     }
 
     .hero-text p {
@@ -322,12 +300,6 @@
 
     }
 
-    .landing-section {
-
-        max-width: 540px;
-
-    }
-
     .hero-text p {
         font-size: 17px;
         width: 160px;
@@ -372,10 +344,6 @@
     h3 {
         font-size: 28px;
         margin-top: 10px;
-    }
-
-    .landing-section {
-        max-width: 450px;
     }
 
     .hero-text p {
@@ -468,10 +436,6 @@
     h3 {
         font-size: 28px;
         margin-top: 10px;
-    }
-
-    .landing-section {
-        max-width: 375px;
     }
 
     .hero-text p {
